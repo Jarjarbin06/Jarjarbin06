@@ -1,5 +1,5 @@
 # 💫 About Me:
-Nathan Jarjarbin, 19yo<br>Bordeaux, France<br><br>Learning at EPITECH PGE (Bordeaux)(tek1)<br><br>❤️ Python<br>📖 C
+Nathan Jarjarbin, 20yo<br>Bordeaux, France<br><br>Learning at EPITECH PGE (Bordeaux)(tek1)<br><br>❤️ Python<br>📖 C
 
 
 ## 🌐 Socials:
