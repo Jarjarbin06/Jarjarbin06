@@ -138,12 +138,8 @@ def replace_readme():
         versions
     )
 
-    try:
-        with open("README.md", 'x') as file:
-            file.write(readme)
-    except FileExistsError:
-        with open("README.md", 'w') as file:
-            file.write(readme)
+    with open("README.md", 'w') as file:
+        file.write(readme)
 
 
 # -----------------------------
