@@ -38,6 +38,6 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add generated/
+          git add generated/ README.md
           git commit -m "profile sync update" || exit 0
           git push
