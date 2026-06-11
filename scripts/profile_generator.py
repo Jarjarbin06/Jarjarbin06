@@ -166,9 +166,7 @@ def replace_readme():
 # MAIN
 # -----------------------------
 def main():
-    if is_test:
-        print(f"{is_test=} {USERNAME=} {TOKEN=}")
-    
+
     print(f"""
 username found ? {bool(USERNAME)}
 token found ? {bool(TOKEN)}
@@ -179,6 +177,8 @@ token found ? {bool(TOKEN)}
     print(f"""
 repos count ? {len(repos)}
 """)
+
+    print(f"{IGNORED=}")
 
     os.makedirs("generated", exist_ok=True)
 
