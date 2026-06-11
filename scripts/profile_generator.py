@@ -27,7 +27,7 @@ def generate_projects(repos):
     categorized = {}
     language_map = {}
     
-    def contained(str_name: str, list_names: list[str])
+    def contained(str_name: str, list_names: list[str]):
         for name in list_names:
             if name in str_name:
                 return True
