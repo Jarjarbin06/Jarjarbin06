@@ -111,10 +111,10 @@ def generate_versions(repos):
     return out
 
 def replace_readme():
-    with open("README_template.md") as file:
+    with open("README_template.md", 'r') as file:
         readme = file.read()
 
-    with open("generated/projects.md") as file:
+    with open("generated/projects.md", 'r') as file:
         projects = file.read()
 
     readme = readme.replace(
@@ -122,7 +122,7 @@ def replace_readme():
         projects
     )
 
-    with open("generated/activity.md") as file:
+    with open("generated/activity.md", 'r') as file:
         activity = file.read()
 
     readme = readme.replace(
@@ -130,7 +130,7 @@ def replace_readme():
         activity
     )
 
-    with open("generated/versions.md") as file:
+    with open("generated/versions.md", 'r') as file:
         versions = file.read()
 
     readme = readme.replace(
@@ -138,8 +138,12 @@ def replace_readme():
         versions
     )
 
-    with open("README.md") as file:
-        file.write(readme)
+    try:
+        with open("README.md", 'x') as file:
+            file.write(readme)
+    except FileExistsError:
+        with open("README.md", 'w') as file:
+            file.write(readme)
 
 
 # -----------------------------
