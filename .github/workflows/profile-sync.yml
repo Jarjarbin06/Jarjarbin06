@@ -1,17 +1,17 @@
 name: Profile Sync System
 
 on:
-  schedule:
-    - cron: "*/1 * * * *"
-  workflow_dispatch:
-
-on:
   push:
     branches:
       - main
     paths:
       - "README.md"
       - ".github/workflows/**"
+
+on:
+  schedule:
+    - cron: "*/1 * * * *"
+  workflow_dispatch:
 
 jobs:
   generate:
