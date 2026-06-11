@@ -5,6 +5,14 @@ on:
     - cron: "*/1 * * * *"
   workflow_dispatch:
 
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "README.md"
+      - ".github/workflows/**"
+
 jobs:
   generate:
     runs-on: ubuntu-latest
