@@ -2,9 +2,11 @@ import os
 import requests
 from datetime import datetime
 
-USERNAME: str = os.getenv("USERNAME")
-IGNORED: list = os.getenv("GH_IGNORED_REPO").split(" ")
-TOKEN: str = os.getenv("GH_TOKEN")
+USERNAME = os.getenv("USERNAME")
+IGNORED = os.getenv("GH_IGNORED_REPO")
+TOKEN = os.getenv("GH_TOKEN")
+
+IGNORED = IGNORED.split(" ") if IGNORED else []
 
 HEADERS = {
     "Authorization": f"token {TOKEN}"
