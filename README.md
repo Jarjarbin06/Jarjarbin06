@@ -99,19 +99,13 @@ My development follows a consistent set of principles:
 
 ---
 
-### Ecosystem Index
-
 <!-- GENERATED:PROJECTS -->
 
 ---
 
-### Activity
-
 <!-- GENERATED:ACTIVITY -->
 
 ---
-
-### Versions
 
 <!-- GENERATED:VERSIONS -->
 

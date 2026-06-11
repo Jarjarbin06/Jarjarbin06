@@ -1,9 +1,12 @@
+from sys import argv
 import os
 import requests
 from datetime import datetime
 
-USERNAME = os.getenv("USERNAME")
-TOKEN = os.getenv("GH_TOKEN")
+is_test = len(argv) > 1 and argv[1] == "test"
+
+USERNAME = "Jarjarbin06" if is_test else os.getenv("USERNAME")
+TOKEN = os.getenv("GH_TOKEN") or os.getenv("JARJARBIN_REPO_GH_TOKEN")
 
 HEADERS = {
     "Authorization": f"token {TOKEN}"
@@ -146,6 +149,9 @@ def replace_readme():
 # MAIN
 # -----------------------------
 def main():
+    if is_test:
+        print(f"{is_test=} {USERNAME=} {TOKEN=}")
+    
     repos = gh_get(f"https://api.github.com/users/{USERNAME}/repos?per_page=100")
 
     os.makedirs("generated", exist_ok=True)
