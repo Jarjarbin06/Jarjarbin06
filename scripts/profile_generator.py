@@ -111,7 +111,7 @@ def generate_versions(repos):
     return out
 
 def replace_readme():
-    with open("README.md") as file:
+    with open("README_template.md") as file:
         readme = file.read()
 
     with open("generated/projects.md") as file:
