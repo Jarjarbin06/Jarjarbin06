@@ -9,10 +9,8 @@
 - [Jarjarbin06](https://github.com/Jarjarbin06/Jarjarbin06) (updated: 2026-06-11)
 - [WS_GoodPractices](https://github.com/Jarjarbin06/WS_GoodPractices) (updated: 2025-12-18)
 
-## 🔹 Framework
-- [epitech_console](https://github.com/Jarjarbin06/epitech_console) (updated: 2026-01-14)
-
 ## 🔹 Tools
+- [epitech_console](https://github.com/Jarjarbin06/epitech_console) (updated: 2026-01-14)
 - [jarbin-toolkit](https://github.com/Jarjarbin06/jarbin-toolkit) (updated: 2026-06-05)
 - [map_tool](https://github.com/Jarjarbin06/map_tool) (updated: 2025-11-10)
 
