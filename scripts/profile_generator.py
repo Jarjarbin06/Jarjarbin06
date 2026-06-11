@@ -117,6 +117,8 @@ def replace_readme():
     with open("README_template.md", 'r') as file:
         readme = file.read()
 
+    print(f"template opened")
+
     with open("generated/projects.md", 'r') as file:
         projects = file.read()
 
@@ -124,6 +126,8 @@ def replace_readme():
         "<!-- GENERATED:PROJECTS -->",
         projects
     )
+
+    print(f"projects filled in template")
 
     with open("generated/activity.md", 'r') as file:
         activity = file.read()
@@ -133,6 +137,8 @@ def replace_readme():
         activity
     )
 
+    print(f"activity filled in template")
+
     with open("generated/versions.md", 'r') as file:
         versions = file.read()
 
@@ -141,8 +147,12 @@ def replace_readme():
         versions
     )
 
+    print(f"versions filled in template")
+
     with open("README.md", 'w') as file:
         file.write(readme)
+
+    print(f"template copied to final")
 
 
 # -----------------------------
@@ -152,19 +162,34 @@ def main():
     if is_test:
         print(f"{is_test=} {USERNAME=} {TOKEN=}")
     
+    print(f"""
+username found ? {bool(USERNAME)}
+token found ? {bool(TOKEN)}
+""")
+
     repos = gh_get(f"https://api.github.com/users/{USERNAME}/repos?per_page=100")
+
+    print(f"""
+repos count ? {len(repos)}
+""")
 
     os.makedirs("generated", exist_ok=True)
 
     with open("generated/projects.md", "w") as f:
         f.write(generate_projects(repos))
 
+    print(f"projects.md generated")
+
     with open("generated/activity.md", "w") as f:
         f.write(generate_activity(repos))
+
+    print(f"activity.md generated")
 
     with open("generated/versions.md", "w") as f:
         f.write(generate_versions(repos))
     
+    print(f"versions.md generated")
+
     replace_readme()
 
 
