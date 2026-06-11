@@ -7,7 +7,6 @@
 - [Graph](https://github.com/Jarjarbin06/Graph) (updated: 2026-02-18)
 - [Jarbin-C-Coding-Style](https://github.com/Jarjarbin06/Jarbin-C-Coding-Style) (updated: 2026-06-11)
 - [Jarjarbin06](https://github.com/Jarjarbin06/Jarjarbin06) (updated: 2026-06-11)
-- [WS_GoodPractices](https://github.com/Jarjarbin06/WS_GoodPractices) (updated: 2025-12-18)
 
 ## 🔹 Tools
 - [epitech_console](https://github.com/Jarjarbin06/epitech_console) (updated: 2026-01-14)
@@ -16,4 +15,4 @@
 
 ## 🔹 Language Breakdown
 - Python: 8
-- C: 2
+- C: 1
