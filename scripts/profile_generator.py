@@ -2,7 +2,7 @@ import os
 import requests
 from datetime import datetime
 
-USERNAME = os.getenv("USERNAME")
+USERNAME = "Jarjarbin06"
 TOKEN = os.getenv("GH_TOKEN")
 
 HEADERS = {
