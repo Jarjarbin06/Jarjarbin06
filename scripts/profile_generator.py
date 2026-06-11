@@ -1,12 +1,10 @@
-from sys import argv
 import os
 import requests
 from datetime import datetime
 
-is_test = len(argv) > 1 and argv[1] == "test"
-
-USERNAME = "Jarjarbin06" if is_test else os.getenv("USERNAME")
-TOKEN = os.getenv("GH_TOKEN") or os.getenv("JARJARBIN_REPO_GH_TOKEN")
+USERNAME: str = os.getenv("USERNAME")
+IGNORED: list = os.getenv("GH_IGNORED_REPO").split(" ")
+TOKEN: str = os.getenv("GH_TOKEN")
 
 HEADERS = {
     "Authorization": f"token {TOKEN}"
@@ -28,22 +26,29 @@ def gh_get(url):
 def generate_projects(repos):
     categorized = {}
     language_map = {}
+    
+    def contained(str_name: str, list_names: list[str])
+        for name in list_names:
+            if name in str_name:
+                return True
+        return False
 
     for repo in repos:
         name = repo["name"]
         url = repo["html_url"]
         lang = repo["language"] or "Unknown"
         updated = repo["updated_at"]
+        
+        if name in IGNORED:
+            continue
 
         language_map[lang] = language_map.get(lang, 0) + 1
 
         category = "misc"
-        if "lib" in name:
+        if contained(name, ["lib"]):
             category = "libraries"
-        elif "tool" in name or "JCCS" in name:
+        elif contained(name, ["tool", "JCCS", "epitech_console"]):
             category = "tools"
-        elif "Makefile" in name or "epitech" in name:
-            category = "framework"
 
         categorized.setdefault(category, []).append(
             f"- [{name}]({url}) (updated: {updated[:10]})"
