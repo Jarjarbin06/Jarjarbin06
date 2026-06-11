@@ -110,6 +110,37 @@ def generate_versions(repos):
 
     return out
 
+def replace_readme():
+    with open("README.md") as file:
+        readme = file.read()
+
+    with open("generated/projects.md") as file:
+        projects = file.read()
+
+    readme = readme.replace(
+        "<!-- GENERATED:PROJECTS -->",
+        projects
+    )
+
+    with open("generated/activity.md") as file:
+        activity = file.read()
+
+    readme = readme.replace(
+        "<!-- GENERATED:ACTIVITY -->",
+        activity
+    )
+
+    with open("generated/versions.md") as file:
+        versions = file.read()
+
+    readme = readme.replace(
+        "<!-- GENERATED:VERSIONS -->",
+        versions
+    )
+
+    with open("README.md") as file:
+        file.write(readme)
+
 
 # -----------------------------
 # MAIN
