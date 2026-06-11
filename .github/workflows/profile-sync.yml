@@ -31,7 +31,7 @@ jobs:
       - name: Run generator
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GH_IGNORED_REPO: ${{ env.GH_TOKEN }}
+          GH_IGNORED_REPO: ${{ env.GH_IGNORED_REPO }}
           USERNAME: Jarjarbin06
         run: python scripts/profile_generator.py
 
