@@ -2,7 +2,7 @@ import os
 import requests
 from datetime import datetime
 
-USERNAME = "Jarjarbin06"
+USERNAME = os.getenv("USERNAME")
 TOKEN = os.getenv("GH_TOKEN")
 
 HEADERS = {
@@ -162,6 +162,8 @@ def main():
 
     with open("generated/versions.md", "w") as f:
         f.write(generate_versions(repos))
+    
+    replace_readme()
 
 
 if __name__ == "__main__":
