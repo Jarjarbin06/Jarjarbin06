@@ -39,4 +39,4 @@ jobs:
           git config user.email "actions@github.com"
           git add generated/
           git commit -m "profile sync update" || exit 0
-          git pusother/Jarjarbin06/.github/profile-sync.ymlh
+          git pusother/Jarjarbin06/.github/profile-sync.yml
