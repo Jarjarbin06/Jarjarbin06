@@ -35,6 +35,8 @@ STATUS
 
 A single badge line only (no extra text):
 
+![status](https://img.shields.io/badge/status-<state>-<color>?style=flat-square)
+
 ```md
 ![status](https://img.shields.io/badge/status-<state>-<color>?style=flat-square)
 ```
@@ -89,6 +91,8 @@ These are the **ONLY valid lifecycle states**.
 
 ### 🔴 deprecated
 
+![status](https://img.shields.io/badge/status-deprecated-red?style=flat-square)
+
 ```md
 ![status](https://img.shields.io/badge/status-deprecated-red?style=flat-square)
 ```
@@ -99,6 +103,8 @@ No longer maintained. Superseded by a newer implementation. Usage is discouraged
 ---
 
 ### 🟢 stable
+
+![status](https://img.shields.io/badge/status-stable-brightgreen?style=flat-square)
 
 ```md
 ![status](https://img.shields.io/badge/status-stable-brightgreen?style=flat-square)
@@ -111,6 +117,8 @@ Production-ready state with stable API guarantees and no expected breaking chang
 
 ### 🟡 development
 
+![status](https://img.shields.io/badge/status-development-yellow?style=flat-square)
+
 ```md
 ![status](https://img.shields.io/badge/status-development-yellow?style=flat-square)
 ```
@@ -121,6 +129,8 @@ Actively developed. Features are incomplete or evolving. API may change without 
 ---
 
 ### 🟣 experimental
+
+![status](https://img.shields.io/badge/status-experimental-purple?style=flat-square)
 
 ```md
 ![status](https://img.shields.io/badge/status-experimental-purple?style=flat-square)
@@ -133,6 +143,8 @@ Prototype-level implementation. Used for validation of concepts. Not stable or p
 
 ### 🔵 maintained
 
+![status](https://img.shields.io/badge/status-maintained-blue?style=flat-square)
+
 ```md
 ![status](https://img.shields.io/badge/status-maintained-blue?style=flat-square)
 ```
@@ -143,6 +155,8 @@ Actively maintained with updates and fixes, but without strict API stability gua
 ---
 
 ### ⚫ archived
+
+![status](https://img.shields.io/badge/status-archived-lightgrey?style=flat-square)
 
 ```md
 ![status](https://img.shields.io/badge/status-archived-lightgrey?style=flat-square)
@@ -155,6 +169,8 @@ Frozen repository state. No further development. Kept for reference or historica
 
 ### 🟠 testing
 
+![status](https://img.shields.io/badge/status-testing-orange?style=flat-square)
+
 ```md
 ![status](https://img.shields.io/badge/status-testing-orange?style=flat-square)
 ```
@@ -166,6 +182,8 @@ Used exclusively for validation, QA, or internal verification workflows. Not pro
 
 ### 🟠 WIP
 
+![status](https://img.shields.io/badge/status-WIP-orange?style=flat-square)
+
 ```md
 ![status](https://img.shields.io/badge/status-WIP-orange?style=flat-square)
 ```
@@ -176,6 +194,8 @@ Work in progress. Implementation incomplete and may be non-functional.
 ---
 
 ### 🔵 frozen
+
+![status](https://img.shields.io/badge/status-frozen-blue?style=flat-square)
 
 ```md
 ![status](https://img.shields.io/badge/status-frozen-blue?style=flat-square)

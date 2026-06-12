@@ -42,6 +42,8 @@ BADGES
 
 Example structure:
 
+![badge](https://img.shields.io/badge/<key>-<value>-<color>?style=flat-square)
+
 ```md
 ![badge](https://img.shields.io/badge/<key>-<value>-<color>?style=flat-square)
 ```
@@ -64,6 +66,8 @@ Each category has a **strict color assignment** to ensure ecosystem consistency.
 
 ### 🐍 Python
 
+![python](https://img.shields.io/badge/language-python-3776AB?style=flat-square)
+
 ```md
 ![python](https://img.shields.io/badge/language-python-3776AB?style=flat-square)
 ```
@@ -74,6 +78,8 @@ Python-based libraries, tools, engines, or frameworks.
 ---
 
 ### ⚙️ C
+
+![c](https://img.shields.io/badge/language-c-A8B9CC?style=flat-square)
 
 ```md
 ![c](https://img.shields.io/badge/language-c-A8B9CC?style=flat-square)
@@ -88,17 +94,23 @@ C-based libraries, system tools, or low-level components.
 
 ### 📚 Python Library
 
+![python-lib](https://img.shields.io/badge/type-python%20library-2ECC71?style=flat-square)
+
 ```md
 ![python-lib](https://img.shields.io/badge/type-python%20library-2ECC71?style=flat-square)
 ```
 
 ### 🧰 Python Tool
 
+![python-tool](https://img.shields.io/badge/type-python%20tool-27AE60?style=flat-square)
+
 ```md
 ![python-tool](https://img.shields.io/badge/type-python%20tool-27AE60?style=flat-square)
 ```
 
 ### 🎮 Game / Engine
+
+![python-game](https://img.shields.io/badge/type-game%2Fengine-1ABC9C?style=flat-square)
 
 ```md
 ![python-game](https://img.shields.io/badge/type-game%2Fengine-1ABC9C?style=flat-square)
@@ -110,17 +122,23 @@ C-based libraries, system tools, or low-level components.
 
 ### 📦 C Library
 
+![c-lib](https://img.shields.io/badge/type-c%20library-A8B9CC?style=flat-square)
+
 ```md
 ![c-lib](https://img.shields.io/badge/type-c%20library-A8B9CC?style=flat-square)
 ```
 
 ### 🔧 C System Utility
 
+![c-system](https://img.shields.io/badge/type-system%20utility-5D6D7E?style=flat-square)
+
 ```md
 ![c-system](https://img.shields.io/badge/type-system%20utility-5D6D7E?style=flat-square)
 ```
 
 ### 🧠 C Data Structure / Core Engine
+
+![c-core](https://img.shields.io/badge/type-core%20system-34495E?style=flat-square)
 
 ```md
 ![c-core](https://img.shields.io/badge/type-core%20system-34495E?style=flat-square)
@@ -132,17 +150,23 @@ C-based libraries, system tools, or low-level components.
 
 ### 🎮 Game
 
+![game](https://img.shields.io/badge/domain-game-F1C40F?style=flat-square)
+
 ```md
 ![game](https://img.shields.io/badge/domain-game-F1C40F?style=flat-square)
 ```
 
 ### 🧪 Tool / Utility
 
+![tool](https://img.shields.io/badge/domain-tool-F39C12?style=flat-square)
+
 ```md
 ![tool](https://img.shields.io/badge/domain-tool-F39C12?style=flat-square)
 ```
 
 ### 🧩 Framework / Engine
+
+![engine](https://img.shields.io/badge/domain-engine-E67E22?style=flat-square)
 
 ```md
 ![engine](https://img.shields.io/badge/domain-engine-E67E22?style=flat-square)
@@ -154,17 +178,23 @@ C-based libraries, system tools, or low-level components.
 
 ### 🔌 Wrapper
 
+![wrapper](https://img.shields.io/badge/architecture-wrapper-9B59B6?style=flat-square)
+
 ```md
 ![wrapper](https://img.shields.io/badge/architecture-wrapper-9B59B6?style=flat-square)
 ```
 
 ### 🧱 Core Library
 
+![core](https://img.shields.io/badge/architecture-core-8E44AD?style=flat-square)
+
 ```md
 ![core](https://img.shields.io/badge/architecture-core-8E44AD?style=flat-square)
 ```
 
 ### 🧪 Experimental Module
+
+![experimental](https://img.shields.io/badge/architecture-experimental-8E44AD?style=flat-square)
 
 ```md
 ![experimental](https://img.shields.io/badge/architecture-experimental-8E44AD?style=flat-square)
@@ -176,17 +206,23 @@ C-based libraries, system tools, or low-level components.
 
 ### ⚡ Lightweight
 
+![lightweight](https://img.shields.io/badge/quality-lightweight-16A085?style=flat-square)
+
 ```md
 ![lightweight](https://img.shields.io/badge/quality-lightweight-16A085?style=flat-square)
 ```
 
 ### 🧠 Low-level
 
+![lowlevel](https://img.shields.io/badge/quality-low--level-2C3E50?style=flat-square)
+
 ```md
 ![lowlevel](https://img.shields.io/badge/quality-low--level-2C3E50?style=flat-square)
 ```
 
 ### 🔒 Secure
+
+![secure](https://img.shields.io/badge/quality-secure-2ECC71?style=flat-square)
 
 ```md
 ![secure](https://img.shields.io/badge/quality-secure-2ECC71?style=flat-square)
@@ -220,25 +256,21 @@ Example:
 
 ## 🔹 4.2 Example BADGES File (C Library)
 
-```md
 ![language](https://img.shields.io/badge/language-c-A8B9CC?style=flat-square)
 ![type](https://img.shields.io/badge/type-c%20library-A8B9CC?style=flat-square)
 ![domain](https://img.shields.io/badge/domain-tool-F39C12?style=flat-square)
 ![architecture](https://img.shields.io/badge/architecture-core-8E44AD?style=flat-square)
 ![quality](https://img.shields.io/badge/quality-low--level-2C3E50?style=flat-square)
-```
 
 ---
 
 ## 🔹 4.3 Example BADGES File (Python Game Engine)
 
-```md
 ![language](https://img.shields.io/badge/language-python-3776AB?style=flat-square)
 ![type](https://img.shields.io/badge/type-game%2Fengine-1ABC9C?style=flat-square)
 ![domain](https://img.shields.io/badge/domain-engine-E67E22?style=flat-square)
 ![architecture](https://img.shields.io/badge/architecture-core-8E44AD?style=flat-square)
 ![quality](https://img.shields.io/badge/quality-lightweight-16A085?style=flat-square)
-```
 
 ---
 
