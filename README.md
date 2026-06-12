@@ -102,16 +102,16 @@ My development follows a consistent set of principles:
 # 📦 Projects Index
 
 ## 🔹 Misc
-- [BSCP](https://github.com/Jarjarbin06/BSCP) (updated: 2026-06-11)
-- [CLI-Game-Engine-CGE-](https://github.com/Jarjarbin06/CLI-Game-Engine-CGE-) (updated: 2026-03-06)
-- [Epitech_Base](https://github.com/Jarjarbin06/Epitech_Base) (updated: 2026-06-10)
+- [BSCP](https://github.com/Jarjarbin06/BSCP) (updated: 2026-06-12)
+- [CLI-Game-Engine-CGE-](https://github.com/Jarjarbin06/CLI-Game-Engine-CGE-) (updated: 2026-06-12)
+- [Epitech_Base](https://github.com/Jarjarbin06/Epitech_Base) (updated: 2026-06-12)
 - [Graph](https://github.com/Jarjarbin06/Graph) (updated: 2026-02-18)
 - [Jarbin-C-Coding-Style](https://github.com/Jarjarbin06/Jarbin-C-Coding-Style) (updated: 2026-06-11)
 - [Jarjarbin06](https://github.com/Jarjarbin06/Jarjarbin06) (updated: 2026-06-12)
 
 ## 🔹 Tools
 - [epitech_console](https://github.com/Jarjarbin06/epitech_console) (updated: 2026-01-14)
-- [jarbin-toolkit](https://github.com/Jarjarbin06/jarbin-toolkit) (updated: 2026-06-11)
+- [jarbin-toolkit](https://github.com/Jarjarbin06/jarbin-toolkit) (updated: 2026-06-12)
 - [map_tool](https://github.com/Jarjarbin06/map_tool) (updated: 2025-11-10)
 
 ## 🔹 Language Breakdown
@@ -125,17 +125,19 @@ My development follows a consistent set of principles:
 
 ## 🔹 Recent Updates
 - Jarjarbin06 → 2026-06-12
+- BSCP → 2026-06-12
+- CLI-Game-Engine-CGE- → 2026-06-12
+- jarbin-toolkit → 2026-06-12
+- Epitech_Base → 2026-06-12
 - Jarbin-C-Coding-Style → 2026-06-11
-- jarbin-toolkit → 2026-06-11
-- Epitech_Base → 2026-06-10
-- BSCP → 2026-04-03
-- CLI-Game-Engine-CGE- → 2026-03-06
 - Graph → 2026-02-18
 - epitech_console → 2026-01-19
 - WS_GoodPractices → 2025-12-18
 - map_tool → 2025-11-10
 
 ## 🔹 Active Repositories (30 days)
+- BSCP
+- CLI-Game-Engine-CGE-
 - Epitech_Base
 - Jarbin-C-Coding-Style
 - jarbin-toolkit
