@@ -107,7 +107,7 @@ My development follows a consistent set of principles:
 - [Epitech_Base](https://github.com/Jarjarbin06/Epitech_Base) (updated: 2026-06-10)
 - [Graph](https://github.com/Jarjarbin06/Graph) (updated: 2026-02-18)
 - [Jarbin-C-Coding-Style](https://github.com/Jarjarbin06/Jarbin-C-Coding-Style) (updated: 2026-06-11)
-- [Jarjarbin06](https://github.com/Jarjarbin06/Jarjarbin06) (updated: 2026-06-11)
+- [Jarjarbin06](https://github.com/Jarjarbin06/Jarjarbin06) (updated: 2026-06-12)
 
 ## 🔹 Tools
 - [epitech_console](https://github.com/Jarjarbin06/epitech_console) (updated: 2026-01-14)
@@ -124,7 +124,7 @@ My development follows a consistent set of principles:
 # 📡 Latest Activity
 
 ## 🔹 Recent Updates
-- Jarjarbin06 → 2026-06-11
+- Jarjarbin06 → 2026-06-12
 - Jarbin-C-Coding-Style → 2026-06-11
 - jarbin-toolkit → 2026-06-11
 - Epitech_Base → 2026-06-10
@@ -147,7 +147,7 @@ My development follows a consistent set of principles:
 # 🧩 Version Tracking
 
 - **Epitech_Base** → info_VERSION	=	v1.0.7
-- **epitech_console** → VENV_DIR        := .venv
+- **epitech_console** → unknown
 
 
 ---
