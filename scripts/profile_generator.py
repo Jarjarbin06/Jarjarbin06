@@ -125,7 +125,7 @@ def extract_version(repo):
                 raw = requests.get(file["download_url"]).text
                 for line in raw.splitlines():
                     if "info_VERSION" in line:
-                        return line.strip(), "Makefile"
+                        return line.split("=")[1].strip(), "Makefile"
     except:
         return "unknown", "none"
     return "unknown", "none"
