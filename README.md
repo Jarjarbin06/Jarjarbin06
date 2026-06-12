@@ -205,8 +205,9 @@ My development follows a consistent set of principles:
 
 ## 🔹 Jarjarbin06
 - ![python](https://img.shields.io/badge/project-v1.0-7c7c7c?style=flat-square)
-- unknown
-- Badges: none
+- ![status](https://img.shields.io/badge/status-maintained-blue?style=flat-square)
+- Badges:
+  - ![project](https://img.shields.io/badge/project-Jarjarbin06-7c7c7c?style=flat-square)
 
 ## 🔹 map_tool
 - ![python](https://img.shields.io/badge/project-unknown-7c7c7c?style=flat-square)
