@@ -6,7 +6,7 @@ USERNAME = os.getenv("USERNAME")
 IGNORED = os.getenv("GH_IGNORED_REPO")
 TOKEN = os.getenv("GH_TOKEN")
 
-IGNORED = IGNORED.split(" ")
+IGNORED = IGNORED.split(" ") if IGNORED else []
 
 HEADERS = {
     "Authorization": f"token {TOKEN}"
@@ -29,19 +29,33 @@ def contained(str_name: str, list_names: list[str]):
     return False
 
 
+def safe_get_file(repo_url, filename):
+    """
+    Fetch file content from GitHub repo root safely.
+    """
+    try:
+        contents = gh_get(repo_url + "/contents")
+        for file in contents:
+            if file["name"] == filename:
+                return requests.get(file["download_url"]).text.strip()
+    except:
+        return None
+    return None
+
+
 # -----------------------------
 # 1. PROJECT INDEX GENERATOR
 # -----------------------------
 def generate_projects(repos):
     categorized = {}
     language_map = {}
-    
+
     for repo in repos:
         name = repo["name"]
         url = repo["html_url"]
         lang = repo["language"] or "Unknown"
         updated = repo["updated_at"]
-        
+
         if name in IGNORED:
             continue
 
@@ -82,7 +96,10 @@ def generate_activity(repos):
     for repo in sorted_repos[:10]:
         out += f"- {repo['name']} → {repo['pushed_at'][:10]}\n"
 
-    active = [r for r in repos if (datetime.utcnow() - datetime.strptime(r["pushed_at"], "%Y-%m-%dT%H:%M:%SZ")).days < 30]
+    active = [
+        r for r in repos
+        if (datetime.utcnow() - datetime.strptime(r["pushed_at"], "%Y-%m-%dT%H:%M:%SZ")).days < 30
+    ]
 
     out += "\n## 🔹 Active Repositories (30 days)\n"
     for repo in active:
@@ -92,43 +109,45 @@ def generate_activity(repos):
 
 
 # -----------------------------
-# 3. METADATA TRACKING SYSTEM
+# 3. METADATA SYSTEM
 # -----------------------------
-def get_starred_repos():
-    repos = []
-    page = 1
+def extract_repo_metadata(repo):
+    result = {
+        "version": "unknown",
+        "status": "unknown",
+        "badges": []
+    }
 
-    while True:
-        url = f"https://api.github.com/users/{USERNAME}/starred"
-        params = {"per_page": 100, "page": page}
-
-        r = requests.get(url, headers=HEADERS, params=params)
-        r.raise_for_status()
-
-        data = r.json()
-        if not data:
-            break
-
-        repos.extend(data)
-        page += 1
-
-    return repos
-
-def extract_metadata(repo):
     try:
         contents = gh_get(repo["url"] + "/contents")
+
         for file in contents:
-            if file["name"].endswith("VERSION"):
+            name = file["name"]
+            raw = None
+
+            # VERSION
+            if name == "VERSION":
                 raw = requests.get(file["download_url"]).text
-                return raw.splitlines()[0].strip(), "txt"
-            if file["name"].endswith("Makefile"):
+                result["version"] = raw.splitlines()[0].strip()
+
+            # STATUS
+            elif name == "STATUS":
                 raw = requests.get(file["download_url"]).text
-                for line in raw.splitlines():
-                    if "info_VERSION" in line:
-                        return line.split("=")[1].strip(), "Makefile"
+                result["status"] = raw.splitlines()[0].strip()
+
+            # BADGES
+            elif name == "BADGES":
+                raw = requests.get(file["download_url"]).text
+                result["badges"] = [
+                    line.strip()
+                    for line in raw.splitlines()
+                    if line.strip().startswith("!")
+                ]
+
     except:
-        return "unknown", "none"
-    return "unknown", "none"
+        pass
+
+    return result
 
 
 def generate_metadata(repos):
@@ -140,8 +159,20 @@ def generate_metadata(repos):
         if name in IGNORED:
             continue
 
-        version, v_type = extract_metadata(repo)
-        out += f"- **{name}** → {version} ({v_type})\n"
+        meta = extract_repo_metadata(repo)
+
+        out += f"## 🔹 {name}\n"
+        out += f"- Version: {meta['version']}\n"
+        out += f"- Status: {meta['status']}\n"
+
+        if meta["badges"]:
+            out += "- Badges:\n"
+            for b in meta["badges"]:
+                out += f"  - {b}\n"
+        else:
+            out += "- Badges: none\n"
+
+        out += "\n"
 
     return out
 
@@ -153,56 +184,36 @@ def replace_readme():
     with open("README_template.md", 'r') as file:
         readme = file.read()
 
-    print(f"template opened")
-
     with open("generated/projects.md", 'r') as file:
         projects = file.read()
 
-    readme = readme.replace(
-        "<!-- GENERATED:PROJECTS -->",
-        projects
-    )
-
-    print(f"projects filled in template")
+    readme = readme.replace("<!-- GENERATED:PROJECTS -->", projects)
 
     with open("generated/activity.md", 'r') as file:
         activity = file.read()
 
-    readme = readme.replace(
-        "<!-- GENERATED:ACTIVITY -->",
-        activity
-    )
-
-    print(f"activity filled in template")
+    readme = readme.replace("<!-- GENERATED:ACTIVITY -->", activity)
 
     with open("generated/metas.md", 'r') as file:
         metas = file.read()
 
-    readme = readme.replace(
-        "<!-- GENERATED:METAS -->",
-        metas
-    )
-
-    print(f"metas filled in template")
+    readme = readme.replace("<!-- GENERATED:METAS -->", metas)
 
     with open("README.md", 'w') as file:
         file.write(readme)
-
-    print(f"template copied to final")
 
 
 # -----------------------------
 # MAIN
 # -----------------------------
 def main():
-
     print(f"username found ? {bool(USERNAME)}\ntoken found ? {bool(TOKEN)}")
 
     repos = gh_get(f"https://api.github.com/users/{USERNAME}/repos?per_page=100")
-    stared = get_starred_repos()
+    starred = gh_get(f"https://api.github.com/users/{USERNAME}/starred?per_page=100")
 
-    print(f"repos count ? {len(repos)}")
-
+    print(f"{len(repos)=}")
+    print(f"{len(starred)=}")
     print(f"{IGNORED=}")
 
     os.makedirs("generated", exist_ok=True)
@@ -210,17 +221,11 @@ def main():
     with open("generated/projects.md", "w") as f:
         f.write(generate_projects(repos))
 
-    print(f"projects.md generated")
-
     with open("generated/activity.md", "w") as f:
         f.write(generate_activity(repos))
 
-    print(f"activity.md generated")
-
     with open("generated/metas.md", "w") as f:
         f.write(generate_metadata(repos))
-    
-    print(f"metas.md generated")
 
     replace_readme()
 
