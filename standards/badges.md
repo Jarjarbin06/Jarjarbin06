@@ -58,6 +58,16 @@ Rules:
 
 ## 🔹 3. Official Jarjarbin06 Badge Categories
 
+This is the name of the project.
+
+![python](https://img.shields.io/badge/project-<name>-7c7c7c?style=flat-square)
+
+```md
+![python](https://img.shields.io/badge/project-<name>-7c7c7c?style=flat-square)
+```
+
+## 🔹 3. Official Jarjarbin06 Badge Categories
+
 Each category has a **strict color assignment** to ensure ecosystem consistency.
 
 ---
