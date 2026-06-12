@@ -182,13 +182,13 @@ My development follows a consistent set of principles:
 
 ## 🔹 epitech_console
 > ### Info:
-> ![version](https://img.shields.io/badge/version-unknown-7c7c7c?style=flat-square)  
+> ![version](https://img.shields.io/badge/version-unknown-black?style=flat-square)  
 > ![status](https://img.shields.io/badge/status-unknown-black?style=flat-square)  
 > ### Description: none
 
 ## 🔹 Graph
 > ### Info:
-> ![version](https://img.shields.io/badge/version-unknown-7c7c7c?style=flat-square)  
+> ![version](https://img.shields.io/badge/version-unknown-black?style=flat-square)  
 > ![status](https://img.shields.io/badge/status-unknown-black?style=flat-square)  
 > ### Description: none
 
@@ -225,7 +225,7 @@ My development follows a consistent set of principles:
 
 ## 🔹 map_tool
 > ### Info:
-> ![version](https://img.shields.io/badge/version-unknown-7c7c7c?style=flat-square)  
+> ![version](https://img.shields.io/badge/version-unknown-black?style=flat-square)  
 > ![status](https://img.shields.io/badge/status-unknown-black?style=flat-square)  
 > ### Description: none
 
