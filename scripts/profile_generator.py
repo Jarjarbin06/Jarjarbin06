@@ -92,7 +92,7 @@ def generate_activity(repos):
 
 
 # -----------------------------
-# 3. VERSION TRACKING SYSTEM
+# 3. METADATA TRACKING SYSTEM
 # -----------------------------
 def get_starred_repos():
     repos = []
@@ -114,7 +114,7 @@ def get_starred_repos():
 
     return repos
 
-def extract_version(repo):
+def extract_metadata(repo):
     try:
         contents = gh_get(repo["url"] + "/contents")
         for file in contents:
@@ -131,8 +131,8 @@ def extract_version(repo):
     return "unknown", "none"
 
 
-def generate_versions(repos):
-    out = "# 🧩 Version Tracking\n\n"
+def generate_metadata(repos):
+    out = "# 🧩 Metadata Tracking\n\n"
 
     for repo in repos:
         name = repo["name"]
@@ -140,7 +140,7 @@ def generate_versions(repos):
         if name in IGNORED:
             continue
 
-        version, v_type = extract_version(repo)
+        version, v_type = extract_metadata(repo)
         out += f"- **{name}** → {version} ({v_type})\n"
 
     return out
@@ -175,15 +175,15 @@ def replace_readme():
 
     print(f"activity filled in template")
 
-    with open("generated/versions.md", 'r') as file:
-        versions = file.read()
+    with open("generated/metas.md", 'r') as file:
+        metas = file.read()
 
     readme = readme.replace(
-        "<!-- GENERATED:VERSIONS -->",
-        versions
+        "<!-- GENERATED:METAS -->",
+        metas
     )
 
-    print(f"versions filled in template")
+    print(f"metas filled in template")
 
     with open("README.md", 'w') as file:
         file.write(readme)
@@ -217,10 +217,10 @@ def main():
 
     print(f"activity.md generated")
 
-    with open("generated/versions.md", "w") as f:
-        f.write(generate_versions(repos))
+    with open("generated/metas.md", "w") as f:
+        f.write(generate_metadata(repos))
     
-    print(f"versions.md generated")
+    print(f"metas.md generated")
 
     replace_readme()
 

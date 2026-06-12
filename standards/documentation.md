@@ -1,4 +1,4 @@
-# 📦 Jarjarbin06 Documentation Style — Formal Specification
+# 📦 Jarjarbin06 — Documentation Standard
 
 > Internal documentation standard used across all Jarjarbin06 projects (libraries, tools, APIs, Makefiles, and frameworks).
 
