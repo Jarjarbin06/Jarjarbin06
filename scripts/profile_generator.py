@@ -14,12 +14,19 @@ HEADERS = {
 
 
 # -----------------------------
-# GitHub API helper
+# Helpers
 # -----------------------------
 def gh_get(url):
     r = requests.get(url, headers=HEADERS)
     r.raise_for_status()
     return r.json()
+
+
+def contained(str_name: str, list_names: list[str]):
+    for name in list_names:
+        if name in str_name:
+            return True
+    return False
 
 
 # -----------------------------
@@ -29,12 +36,6 @@ def generate_projects(repos):
     categorized = {}
     language_map = {}
     
-    def contained(str_name: str, list_names: list[str]):
-        for name in list_names:
-            if name in str_name:
-                return True
-        return False
-
     for repo in repos:
         name = repo["name"]
         url = repo["html_url"]
@@ -97,10 +98,13 @@ def extract_version(repo):
     try:
         contents = gh_get(repo["url"] + "/contents")
         for file in contents:
-            if "Makefile" in file["name"]:
+            if file["name"].endswith("VERSION"):
+                raw = requests.get(file["download_url"]).text
+                return raw.splitlines()[0].strip()
+            if file["name"].endswith("Makefile"):
                 raw = requests.get(file["download_url"]).text
                 for line in raw.splitlines():
-                    if "VERSION" in line or "v" in line:
+                    if "info_VERSION" in line:
                         return line.strip()
     except:
         return "unknown"
