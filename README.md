@@ -1,4 +1,4 @@
-# 📦 Jarjarbin06
+# 🤓 Jarjarbin06
 
 > Developer • EPITECH Student • C / Python • Systems-oriented builder of modular software ecosystems
 
