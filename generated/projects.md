@@ -6,7 +6,7 @@
 - [Epitech_Base](https://github.com/Jarjarbin06/Epitech_Base) (updated: 2026-06-10)
 - [Graph](https://github.com/Jarjarbin06/Graph) (updated: 2026-02-18)
 - [Jarbin-C-Coding-Style](https://github.com/Jarjarbin06/Jarbin-C-Coding-Style) (updated: 2026-06-11)
-- [Jarjarbin06](https://github.com/Jarjarbin06/Jarjarbin06) (updated: 2026-06-11)
+- [Jarjarbin06](https://github.com/Jarjarbin06/Jarjarbin06) (updated: 2026-06-12)
 
 ## 🔹 Tools
 - [epitech_console](https://github.com/Jarjarbin06/epitech_console) (updated: 2026-01-14)
