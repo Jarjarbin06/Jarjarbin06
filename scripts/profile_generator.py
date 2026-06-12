@@ -14,7 +14,7 @@ HEADERS = {
 
 
 # -----------------------------
-# Helpers
+# HELPERS
 # -----------------------------
 def gh_get(url):
     r = requests.get(url, headers=HEADERS)
@@ -124,6 +124,10 @@ def generate_versions(repos):
 
     return out
 
+
+# -----------------------------
+# README SAVER
+# -----------------------------
 def replace_readme():
     with open("README_template.md", 'r') as file:
         readme = file.read()
@@ -171,16 +175,11 @@ def replace_readme():
 # -----------------------------
 def main():
 
-    print(f"""
-username found ? {bool(USERNAME)}
-token found ? {bool(TOKEN)}
-""")
+    print(f"username found ? {bool(USERNAME)}\ntoken found ? {bool(TOKEN)}")
 
     repos = gh_get(f"https://api.github.com/users/{USERNAME}/repos?per_page=100")
 
-    print(f"""
-repos count ? {len(repos)}
-""")
+    print(f"repos count ? {len(repos)}")
 
     print(f"{IGNORED=}")
 
