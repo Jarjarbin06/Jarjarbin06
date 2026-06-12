@@ -114,7 +114,7 @@ def generate_activity(repos):
 def extract_repo_metadata(repo):
     result = {
         "version": "unknown",
-        "status": "unknown",
+        "status": "![status](https://img.shields.io/badge/status-unknown-black?style=flat-square)",
         "badges": []
     }
 
