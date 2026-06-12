@@ -162,8 +162,8 @@ def generate_metadata(repos):
         meta = extract_repo_metadata(repo)
 
         out += f"## 🔹 {name}\n"
-        out += f"- Version: {meta['version']}\n"
-        out += f"- Status: {meta['status']}\n"
+        out += f"- ![python](https://img.shields.io/badge/project-{meta['version']}-7c7c7c?style=flat-square)\n"
+        out += f"- {meta['status']}\n"
 
         if meta["badges"]:
             out += "- Badges:\n"
