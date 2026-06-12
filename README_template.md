@@ -111,4 +111,11 @@ My development follows a consistent set of principles:
 
 ---
 
+## 🔹 Links
+
+### Jarjarbin06 Standards
+* [Documentation](standards/documentation.md)
+* [Badges](standards/badges.md)
+* [Status & Versioning](standards/status_and_versioning.md)
+
 Jarjarbin06 — Structured. Modular. Deterministic.
