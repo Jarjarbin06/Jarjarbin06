@@ -6,7 +6,7 @@ USERNAME = os.getenv("USERNAME")
 IGNORED = os.getenv("GH_IGNORED_REPO")
 TOKEN = os.getenv("GH_TOKEN")
 
-IGNORED = IGNORED.split(" ") if IGNORED else []
+IGNORED = IGNORED.split(" ")
 
 HEADERS = {
     "Authorization": f"token {TOKEN}"
@@ -94,33 +94,54 @@ def generate_activity(repos):
 # -----------------------------
 # 3. VERSION TRACKING SYSTEM
 # -----------------------------
+def get_starred_repos():
+    repos = []
+    page = 1
+
+    while True:
+        url = f"https://api.github.com/users/{USERNAME}/starred"
+        params = {"per_page": 100, "page": page}
+
+        r = requests.get(url, headers=HEADERS, params=params)
+        r.raise_for_status()
+
+        data = r.json()
+        if not data:
+            break
+
+        repos.extend(data)
+        page += 1
+
+    return repos
+
 def extract_version(repo):
     try:
         contents = gh_get(repo["url"] + "/contents")
         for file in contents:
             if file["name"].endswith("VERSION"):
                 raw = requests.get(file["download_url"]).text
-                return raw.splitlines()[0].strip()
+                return raw.splitlines()[0].strip(), "txt"
             if file["name"].endswith("Makefile"):
                 raw = requests.get(file["download_url"]).text
                 for line in raw.splitlines():
                     if "info_VERSION" in line:
-                        return line.strip()
+                        return line.strip(), "Makefile"
     except:
-        return "unknown"
-    return "unknown"
+        return "unknown", "none"
+    return "unknown", "none"
 
 
 def generate_versions(repos):
     out = "# 🧩 Version Tracking\n\n"
 
-    tracked = ["JCCS", "Epitech", "libfile"]
-
     for repo in repos:
-        for key in tracked:
-            if key.lower() in repo["name"].lower():
-                version = extract_version(repo)
-                out += f"- **{repo['name']}** → {version}\n"
+        name = repo["name"]
+
+        if name in IGNORED:
+            continue
+
+        version, v_type = extract_version(repo)
+        out += f"- **{name}** → {version} ({v_type})\n"
 
     return out
 
@@ -178,6 +199,7 @@ def main():
     print(f"username found ? {bool(USERNAME)}\ntoken found ? {bool(TOKEN)}")
 
     repos = gh_get(f"https://api.github.com/users/{USERNAME}/repos?per_page=100")
+    stared = get_starred_repos()
 
     print(f"repos count ? {len(repos)}")
 
