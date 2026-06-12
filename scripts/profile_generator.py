@@ -113,7 +113,7 @@ def generate_activity(repos):
 # -----------------------------
 def extract_repo_metadata(repo):
     result = {
-        "version": "unknown",
+        "version": "![version](https://img.shields.io/badge/version-unknown-black?style=flat-square)",
         "status": "![status](https://img.shields.io/badge/status-unknown-black?style=flat-square)",
         "badges": []
     }
@@ -128,7 +128,7 @@ def extract_repo_metadata(repo):
             # VERSION
             if name == "VERSION":
                 raw = requests.get(file["download_url"]).text
-                result["version"] = raw.splitlines()[0].strip()
+                result["version"] = f"![version](https://img.shields.io/badge/version-{raw.splitlines()[0].strip()}-7c7c7c?style=flat-square)"
 
             # STATUS
             elif name == "STATUS":
@@ -163,7 +163,7 @@ def generate_metadata(repos):
 
         out += f"## 🔹 {name}\n"
         out += "> ### Info:\n"
-        out += f"> ![version](https://img.shields.io/badge/version-{meta['version']}-7c7c7c?style=flat-square)  \n"
+        out += f"> {meta['version']}  \n"
         out += f"> {meta['status']}  \n"
 
         if meta["badges"]:
