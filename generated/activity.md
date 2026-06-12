@@ -3,7 +3,7 @@
 ## 🔹 Recent Updates
 - Jarjarbin06 → 2026-06-12
 - BSCP → 2026-06-12
-- CLI-Game-Engine-CGE- → 2026-06-12
+- CLI-Game-Engine → 2026-06-12
 - jarbin-toolkit → 2026-06-12
 - Epitech_Base → 2026-06-12
 - Jarbin-C-Coding-Style → 2026-06-11
@@ -14,7 +14,7 @@
 
 ## 🔹 Active Repositories (30 days)
 - BSCP
-- CLI-Game-Engine-CGE-
+- CLI-Game-Engine
 - Epitech_Base
 - Jarbin-C-Coding-Style
 - jarbin-toolkit
