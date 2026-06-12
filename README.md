@@ -226,15 +226,51 @@ These systems share:
 
 # 🧩 Metadata Tracking
 
-- **BSCP** → v1.0 (txt)
-- **CLI-Game-Engine** → v0.0.1.0 (txt)
-- **Epitech_Base** → v1.0.7 (Makefile)
-- **epitech_console** → unknown (none)
-- **Graph** → unknown (none)
-- **Jarbin-C-Coding-Style** → v1.1 (txt)
-- **jarbin-toolkit** → v1.2 (txt)
-- **Jarjarbin06** → v1.0 (txt)
-- **map_tool** → unknown (none)
+## 🔹 BSCP
+- Version: v1.0
+- Status: unknown
+- Badges: none
+
+## 🔹 CLI-Game-Engine
+- Version: v0.0.1.0
+- Status: unknown
+- Badges: none
+
+## 🔹 Epitech_Base
+- Version: v1.0.7
+- Status: unknown
+- Badges: none
+
+## 🔹 epitech_console
+- Version: unknown
+- Status: unknown
+- Badges: none
+
+## 🔹 Graph
+- Version: unknown
+- Status: unknown
+- Badges: none
+
+## 🔹 Jarbin-C-Coding-Style
+- Version: v1.1
+- Status: unknown
+- Badges: none
+
+## 🔹 jarbin-toolkit
+- Version: v1.2
+- Status: unknown
+- Badges: none
+
+## 🔹 Jarjarbin06
+- Version: v1.0
+- Status: unknown
+- Badges: none
+
+## 🔹 map_tool
+- Version: unknown
+- Status: unknown
+- Badges: none
+
 
 
 ---
