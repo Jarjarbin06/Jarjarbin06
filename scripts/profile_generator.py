@@ -115,11 +115,13 @@ def extract_repo_metadata(repo):
     result = {
         "version": "![version](https://img.shields.io/badge/version-unknown-black?style=flat-square)",
         "status": "![status](https://img.shields.io/badge/status-unknown-black?style=flat-square)",
-        "badges": []
+        "badges": [],
+        "url": ""
     }
 
     try:
         contents = gh_get(repo["url"] + "/contents")
+        result["url"] = repo["html_url"]
 
         for file in contents:
             name = file["name"]
@@ -161,7 +163,7 @@ def generate_metadata(repos):
 
         meta = extract_repo_metadata(repo)
 
-        out += f"## 🔹 {name}\n"
+        out += f"## 🔹 {}\n"
         out += "> ### Info:\n"
         out += f"> {meta['version']}  \n"
         out += f"> {meta['status']}  \n"
