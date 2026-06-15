@@ -163,7 +163,7 @@ def generate_metadata(repos):
 
         meta = extract_repo_metadata(repo)
 
-        out += f"## 🔹 {meta["url"]}\n"
+        out += f"## 🔹 {meta['url']}\n"
         out += "> ### Info:\n"
         out += f"> {meta['version']}  \n"
         out += f"> {meta['status']}  \n"
