@@ -107,7 +107,7 @@ My development follows a consistent set of principles:
 - [Epitech_Base](https://github.com/Jarjarbin06/Epitech_Base) (updated: 2026-06-12)
 - [Graph](https://github.com/Jarjarbin06/Graph) (updated: 2026-06-12)
 - [Jarbin-C-Coding-Style](https://github.com/Jarjarbin06/Jarbin-C-Coding-Style) (updated: 2026-06-12)
-- [Jarjarbin06](https://github.com/Jarjarbin06/Jarjarbin06) (updated: 2026-06-15)
+- [Jarjarbin06](https://github.com/Jarjarbin06/Jarjarbin06) (updated: 2026-06-16)
 
 ## 🔹 Tools
 - [epitech_console](https://github.com/Jarjarbin06/epitech_console) (updated: 2026-06-12)
@@ -124,8 +124,8 @@ My development follows a consistent set of principles:
 # 📡 Latest Activity
 
 ## 🔹 Recent Updates
+- Jarjarbin06 → 2026-06-16
 - jarbin-toolkit → 2026-06-16
-- Jarjarbin06 → 2026-06-15
 - Epitech_Base → 2026-06-15
 - BSCP → 2026-06-12
 - CLI-Game-Engine → 2026-06-12
