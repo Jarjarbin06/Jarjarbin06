@@ -111,7 +111,7 @@ My development follows a consistent set of principles:
 
 ## 🔹 Tools
 - [epitech_console](https://github.com/Jarjarbin06/epitech_console) (updated: 2026-06-12)
-- [jarbin-toolkit](https://github.com/Jarjarbin06/jarbin-toolkit) (updated: 2026-06-15)
+- [jarbin-toolkit](https://github.com/Jarjarbin06/jarbin-toolkit) (updated: 2026-06-16)
 - [map_tool](https://github.com/Jarjarbin06/map_tool) (updated: 2026-06-12)
 
 ## 🔹 Language Breakdown
@@ -124,8 +124,8 @@ My development follows a consistent set of principles:
 # 📡 Latest Activity
 
 ## 🔹 Recent Updates
+- jarbin-toolkit → 2026-06-16
 - Jarjarbin06 → 2026-06-15
-- jarbin-toolkit → 2026-06-15
 - Epitech_Base → 2026-06-15
 - BSCP → 2026-06-12
 - CLI-Game-Engine → 2026-06-12
