@@ -27,8 +27,7 @@ def gh_get_all(url):
     page = 1
 
     while True:
-        separator = "&" if "?" in url else "?"
-        data = gh_get(f"{url}?per_page=100{separator}page={page}")
+        data = gh_get(f"{url}?per_page=100&page={page}")
         if not data:
             break
         results.extend(data)
