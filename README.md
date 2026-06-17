@@ -125,8 +125,8 @@ My development follows a consistent set of principles:
 # 📡 Latest Activity
 
 ## 🔹 Recent Updates
-- JarEngine → 2026-06-17
 - Jarjarbin06 → 2026-06-17
+- JarEngine → 2026-06-17
 - jarbin-toolkit → 2026-06-16
 - Epitech_Base → 2026-06-15
 - BSCP → 2026-06-12
