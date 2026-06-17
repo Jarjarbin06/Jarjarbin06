@@ -63,25 +63,29 @@ def safe_get_file(repo_url, filename):
 def get_all_repos():
     all_repos = []
 
-    # personal
+    # personal repos
     all_repos += gh_get_all(f"https://api.github.com/users/{USERNAME}/repos")
-    
-    print(f"{all_repos=}")
 
     # org repos
     orgs = gh_get_all("https://api.github.com/user/orgs")
-    
-    print(f"{orgs=}")
-    
+
     for org in orgs:
         org_name = org["login"]
+
         try:
-            org_repos = gh_get_all("https://api.github.com/user/repos?affiliation=owner,collaborator,organization_member")
+            org_repos = gh_get_all(
+                f"https://api.github.com/orgs/{org_name}/repos"
+            )
             all_repos += org_repos
-        except:
+        except Exception:
             pass
 
-    return all_repos
+    # remove duplicates (important)
+    unique = {}
+    for repo in all_repos:
+        unique[repo["full_name"]] = repo
+
+    return list(unique.values())
 
 
 # -----------------------------
