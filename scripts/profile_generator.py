@@ -12,12 +12,15 @@ HEADERS = {
     "Authorization": f"token {TOKEN}"
 }
 
+session = requests.Session()
+session.headers.update(HEADERS)
+
 
 # -----------------------------
 # HELPERS
 # -----------------------------
 def gh_get(url):
-    r = requests.get(url, headers=HEADERS)
+    r = session.get(url, headers=HEADERS)
     r.raise_for_status()
     return r.json()
 
@@ -51,7 +54,7 @@ def safe_get_file(repo_url, filename):
         contents = gh_get(repo_url + "/contents")
         for file in contents:
             if file["name"] == filename:
-                return requests.get(file["download_url"]).text.strip()
+                return session.get(file["download_url"]).text.strip()
     except:
         return None
     return None
@@ -62,13 +65,18 @@ def get_all_repos():
 
     # personal
     all_repos += gh_get_all(f"https://api.github.com/users/{USERNAME}/repos")
+    
+    print(f"{all_repos=}")
 
     # org repos
     orgs = gh_get_all(f"https://api.github.com/users/{USERNAME}/orgs")
+    
+    print(f"{orgs=}")
+    
     for org in orgs:
         org_name = org["login"]
         try:
-            org_repos = gh_get_all(f"https://api.github.com/orgs/{org_name}/repos")
+            org_repos = gh_get_all("https://api.github.com/user/repos?affiliation=owner,collaborator,organization_member")
             all_repos += org_repos
         except:
             pass
@@ -162,17 +170,17 @@ def extract_repo_metadata(repo):
 
             # VERSION
             if name == "VERSION":
-                raw = requests.get(file["download_url"]).text
+                raw = session.get(file["download_url"]).text
                 result["version"] = f"![version](https://img.shields.io/badge/version-{raw.splitlines()[0].strip()}-7c7c7c?style=flat-square)"
 
             # STATUS
             elif name == "STATUS":
-                raw = requests.get(file["download_url"]).text
+                raw = session.get(file["download_url"]).text
                 result["status"] = raw.splitlines()[0].strip()
 
             # BADGES
             elif name == "BADGES":
-                raw = requests.get(file["download_url"]).text
+                raw = session.get(file["download_url"]).text
                 result["badges"] = [
                     line.strip()
                     for line in raw.splitlines()
@@ -191,7 +199,7 @@ def generate_metadata(repos):
     for repo in repos:
         name = repo["name"]
 
-        if name in IGNORED:
+        if name in IGNORED or repo["owner"]["login"] != USERNAME:
             continue
 
         meta = extract_repo_metadata(repo)
