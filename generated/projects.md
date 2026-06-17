@@ -8,7 +8,6 @@
 - [Jarbin-C-Coding-Style](https://github.com/Jarjarbin06/Jarbin-C-Coding-Style) (updated: 2026-06-12)
 - [Jarjarbin06](https://github.com/Jarjarbin06/Jarjarbin06) (updated: 2026-06-17)
 - [JarEngine](https://github.com/Jarjarbin-Studio/JarEngine) (updated: 2026-06-16)
-- [demo-repository](https://github.com/Jarjarbin-Studio/demo-repository) (updated: 2026-06-15)
 
 ## 🔹 Tools
 - [epitech_console](https://github.com/Jarjarbin06/epitech_console) (updated: 2026-06-12)
@@ -18,4 +17,3 @@
 ## 🔹 Language Breakdown
 - Python: 9
 - C: 1
-- HTML: 1

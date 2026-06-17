@@ -109,7 +109,6 @@ My development follows a consistent set of principles:
 - [Jarbin-C-Coding-Style](https://github.com/Jarjarbin06/Jarbin-C-Coding-Style) (updated: 2026-06-12)
 - [Jarjarbin06](https://github.com/Jarjarbin06/Jarjarbin06) (updated: 2026-06-17)
 - [JarEngine](https://github.com/Jarjarbin-Studio/JarEngine) (updated: 2026-06-16)
-- [demo-repository](https://github.com/Jarjarbin-Studio/demo-repository) (updated: 2026-06-15)
 
 ## 🔹 Tools
 - [epitech_console](https://github.com/Jarjarbin06/epitech_console) (updated: 2026-06-12)
@@ -119,7 +118,6 @@ My development follows a consistent set of principles:
 ## 🔹 Language Breakdown
 - Python: 9
 - C: 1
-- HTML: 1
 
 
 ---
@@ -130,13 +128,13 @@ My development follows a consistent set of principles:
 - Jarjarbin06 → 2026-06-17
 - jarbin-toolkit → 2026-06-16
 - JarEngine → 2026-06-15
-- demo-repository → 2026-06-15
 - Epitech_Base → 2026-06-15
 - BSCP → 2026-06-12
 - CLI-Game-Engine → 2026-06-12
 - Jarbin-C-Coding-Style → 2026-06-12
 - Graph → 2026-02-18
 - epitech_console → 2026-01-19
+- WS_GoodPractices → 2025-12-18
 
 ## 🔹 Active Repositories (30 days)
 - BSCP
@@ -146,7 +144,6 @@ My development follows a consistent set of principles:
 - jarbin-toolkit
 - Jarjarbin06
 - JarEngine
-- demo-repository
 
 
 ---
@@ -241,12 +238,6 @@ My development follows a consistent set of principles:
 > 
 > ### Description:
 > - ![project](https://img.shields.io/badge/project-JCCS-7c7c7c?style=flat-square)![python](https://img.shields.io/badge/language-python-3776AB?style=flat-square)![python-tool](https://img.shields.io/badge/type-python%20tool-27AE60?style=flat-square)![tool](https://img.shields.io/badge/domain-tool-F39C12?style=flat-square)![secure](https://img.shields.io/badge/quality-secure-2ECC71?style=flat-square)
-
-## 🔹 [demo-repository](https://github.com/Jarjarbin-Studio/demo-repository)
-> ### Info:
-> ![version](https://img.shields.io/badge/version-unknown-black?style=flat-square)  
-> ![status](https://img.shields.io/badge/status-unknown-black?style=flat-square)  
-> ### Description: none
 
 
 
