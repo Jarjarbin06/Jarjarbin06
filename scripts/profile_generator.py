@@ -203,7 +203,7 @@ def generate_metadata(repos):
     for repo in repos:
         name = repo["name"]
 
-        if name in IGNORED or repo["owner"]["login"] != USERNAME:
+        if name in IGNORED:
             continue
 
         meta = extract_repo_metadata(repo)
