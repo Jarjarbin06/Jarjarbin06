@@ -22,6 +22,20 @@ def gh_get(url):
     return r.json()
 
 
+def gh_get_all(url):
+    results = []
+    page = 1
+
+    while True:
+        data = gh_get(f"{url}&page={page}")
+        if not data:
+            break
+        results.extend(data)
+        page += 1
+
+    return results
+
+
 def contained(str_name: str, list_names: list[str]):
     for name in list_names:
         if name in str_name:
@@ -41,6 +55,25 @@ def safe_get_file(repo_url, filename):
     except:
         return None
     return None
+
+
+def get_all_repos():
+    all_repos = []
+
+    # personal
+    all_repos += gh_get_all(f"https://api.github.com/users/{USERNAME}/repos?per_page=100")
+
+    # org repos
+    orgs = gh_get_all(f"https://api.github.com/users/{USERNAME}/orgs")
+    for org in orgs:
+        org_name = org["login"]
+        try:
+            org_repos = gh_get_all(f"https://api.github.com/orgs/{org_name}/repos?per_page=100")
+            all_repos += org_repos
+        except:
+            pass
+
+    return all_repos
 
 
 # -----------------------------
@@ -212,8 +245,8 @@ def replace_readme():
 def main():
     print(f"username found ? {bool(USERNAME)}\ntoken found ? {bool(TOKEN)}")
 
-    repos = gh_get(f"https://api.github.com/users/{USERNAME}/repos?per_page=100")
-    starred = gh_get(f"https://api.github.com/users/{USERNAME}/starred?per_page=100")
+    repos = get_all_repos()
+    starred = gh_get_all(f"https://api.github.com/users/{USERNAME}/starred?per_page=100")
 
     print(f"{len(repos)=}")
     print(f"{len(starred)=}")
