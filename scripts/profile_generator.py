@@ -69,7 +69,7 @@ def get_all_repos():
     print(f"{all_repos=}")
 
     # org repos
-    orgs = gh_get_all(f"https://api.github.com/users/{USERNAME}/orgs")
+    orgs = gh_get_all("https://api.github.com/user/orgs")
     
     print(f"{orgs=}")
     
