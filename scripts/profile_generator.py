@@ -27,7 +27,8 @@ def gh_get_all(url):
     page = 1
 
     while True:
-        data = gh_get(f"{url}&page={page}")
+        separator = "&" if "?" in url else "?"
+        data = gh_get(f"{url}?per_page=100{separator}page={page}")
         if not data:
             break
         results.extend(data)
@@ -61,14 +62,14 @@ def get_all_repos():
     all_repos = []
 
     # personal
-    all_repos += gh_get_all(f"https://api.github.com/users/{USERNAME}/repos?per_page=100")
+    all_repos += gh_get_all(f"https://api.github.com/users/{USERNAME}/repos")
 
     # org repos
     orgs = gh_get_all(f"https://api.github.com/users/{USERNAME}/orgs")
     for org in orgs:
         org_name = org["login"]
         try:
-            org_repos = gh_get_all(f"https://api.github.com/orgs/{org_name}/repos?per_page=100")
+            org_repos = gh_get_all(f"https://api.github.com/orgs/{org_name}/repos")
             all_repos += org_repos
         except:
             pass
@@ -246,7 +247,7 @@ def main():
     print(f"username found ? {bool(USERNAME)}\ntoken found ? {bool(TOKEN)}")
 
     repos = get_all_repos()
-    starred = gh_get_all(f"https://api.github.com/users/{USERNAME}/starred?per_page=100")
+    starred = gh_get_all(f"https://api.github.com/users/{USERNAME}/starred")
 
     print(f"{len(repos)=}")
     print(f"{len(starred)=}")
