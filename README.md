@@ -107,7 +107,7 @@ My development follows a consistent set of principles:
 - [Epitech_Base](https://github.com/Jarjarbin06/Epitech_Base) (updated: 2026-06-12)
 - [Graph](https://github.com/Jarjarbin06/Graph) (updated: 2026-06-12)
 - [Jarbin-C-Coding-Style](https://github.com/Jarjarbin06/Jarbin-C-Coding-Style) (updated: 2026-06-12)
-- [Jarjarbin06](https://github.com/Jarjarbin06/Jarjarbin06) (updated: 2026-06-18)
+- [Jarjarbin06](https://github.com/Jarjarbin06/Jarjarbin06) (updated: 2026-06-19)
 - [JarEngine](https://github.com/Jarjarbin-Studio/JarEngine) (updated: 2026-06-19)
 
 ## 🔹 Tools
@@ -126,7 +126,7 @@ My development follows a consistent set of principles:
 
 ## 🔹 Recent Updates
 - JarEngine → 2026-06-19
-- Jarjarbin06 → 2026-06-18
+- Jarjarbin06 → 2026-06-19
 - jarbin-toolkit → 2026-06-16
 - Epitech_Base → 2026-06-15
 - BSCP → 2026-06-12
