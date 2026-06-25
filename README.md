@@ -119,7 +119,7 @@ My development follows a consistent set of principles:
 ## 🔹 Language Breakdown
 - Python: 9
 - C: 1
-- CSS: 1
+- JavaScript: 1
 
 
 ---
@@ -128,8 +128,8 @@ My development follows a consistent set of principles:
 
 ## 🔹 Recent Updates
 - portfolio → 2026-06-25
-- Jarbin-C-Coding-Style → 2026-06-25
 - Jarjarbin06 → 2026-06-25
+- Jarbin-C-Coding-Style → 2026-06-25
 - JarEngine → 2026-06-25
 - jarbin-toolkit → 2026-06-16
 - Epitech_Base → 2026-06-15

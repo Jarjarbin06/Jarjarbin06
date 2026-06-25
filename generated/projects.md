@@ -18,4 +18,4 @@
 ## 🔹 Language Breakdown
 - Python: 9
 - C: 1
-- CSS: 1
+- JavaScript: 1

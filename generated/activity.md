@@ -2,8 +2,8 @@
 
 ## 🔹 Recent Updates
 - portfolio → 2026-06-25
-- Jarbin-C-Coding-Style → 2026-06-25
 - Jarjarbin06 → 2026-06-25
+- Jarbin-C-Coding-Style → 2026-06-25
 - JarEngine → 2026-06-25
 - jarbin-toolkit → 2026-06-16
 - Epitech_Base → 2026-06-15
