@@ -1,7 +1,7 @@
 # 📡 Latest Activity
 
 ## 🔹 Recent Updates
-- portfolio → 2026-06-25
+- jarjarbin-cloud-flare → 2026-06-25
 - Jarjarbin06 → 2026-06-25
 - Jarbin-C-Coding-Style → 2026-06-25
 - JarEngine → 2026-06-25
@@ -18,6 +18,6 @@
 - Epitech_Base
 - Jarbin-C-Coding-Style
 - jarbin-toolkit
+- jarjarbin-cloud-flare
 - Jarjarbin06
-- portfolio
 - JarEngine
