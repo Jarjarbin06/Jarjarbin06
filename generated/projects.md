@@ -5,8 +5,9 @@
 - [CLI-Game-Engine](https://github.com/Jarjarbin06/CLI-Game-Engine) (updated: 2026-06-12)
 - [Epitech_Base](https://github.com/Jarjarbin06/Epitech_Base) (updated: 2026-06-12)
 - [Graph](https://github.com/Jarjarbin06/Graph) (updated: 2026-06-12)
-- [Jarbin-C-Coding-Style](https://github.com/Jarjarbin06/Jarbin-C-Coding-Style) (updated: 2026-06-12)
-- [Jarjarbin06](https://github.com/Jarjarbin06/Jarjarbin06) (updated: 2026-06-24)
+- [Jarbin-C-Coding-Style](https://github.com/Jarjarbin06/Jarbin-C-Coding-Style) (updated: 2026-06-25)
+- [Jarjarbin06](https://github.com/Jarjarbin06/Jarjarbin06) (updated: 2026-06-25)
+- [portfolio](https://github.com/Jarjarbin06/portfolio) (updated: 2026-06-25)
 - [JarEngine](https://github.com/Jarjarbin-Studio/JarEngine) (updated: 2026-06-25)
 
 ## 🔹 Tools
@@ -17,3 +18,4 @@
 ## 🔹 Language Breakdown
 - Python: 9
 - C: 1
+- CSS: 1

@@ -106,8 +106,9 @@ My development follows a consistent set of principles:
 - [CLI-Game-Engine](https://github.com/Jarjarbin06/CLI-Game-Engine) (updated: 2026-06-12)
 - [Epitech_Base](https://github.com/Jarjarbin06/Epitech_Base) (updated: 2026-06-12)
 - [Graph](https://github.com/Jarjarbin06/Graph) (updated: 2026-06-12)
-- [Jarbin-C-Coding-Style](https://github.com/Jarjarbin06/Jarbin-C-Coding-Style) (updated: 2026-06-12)
-- [Jarjarbin06](https://github.com/Jarjarbin06/Jarjarbin06) (updated: 2026-06-24)
+- [Jarbin-C-Coding-Style](https://github.com/Jarjarbin06/Jarbin-C-Coding-Style) (updated: 2026-06-25)
+- [Jarjarbin06](https://github.com/Jarjarbin06/Jarjarbin06) (updated: 2026-06-25)
+- [portfolio](https://github.com/Jarjarbin06/portfolio) (updated: 2026-06-25)
 - [JarEngine](https://github.com/Jarjarbin-Studio/JarEngine) (updated: 2026-06-25)
 
 ## 🔹 Tools
@@ -118,6 +119,7 @@ My development follows a consistent set of principles:
 ## 🔹 Language Breakdown
 - Python: 9
 - C: 1
+- CSS: 1
 
 
 ---
@@ -125,16 +127,16 @@ My development follows a consistent set of principles:
 # 📡 Latest Activity
 
 ## 🔹 Recent Updates
+- portfolio → 2026-06-25
+- Jarbin-C-Coding-Style → 2026-06-25
+- Jarjarbin06 → 2026-06-25
 - JarEngine → 2026-06-25
-- Jarjarbin06 → 2026-06-24
 - jarbin-toolkit → 2026-06-16
 - Epitech_Base → 2026-06-15
 - BSCP → 2026-06-12
 - CLI-Game-Engine → 2026-06-12
-- Jarbin-C-Coding-Style → 2026-06-12
 - Graph → 2026-02-18
 - epitech_console → 2026-01-19
-- WS_GoodPractices → 2025-12-18
 
 ## 🔹 Active Repositories (30 days)
 - BSCP
@@ -143,6 +145,7 @@ My development follows a consistent set of principles:
 - Jarbin-C-Coding-Style
 - jarbin-toolkit
 - Jarjarbin06
+- portfolio
 - JarEngine
 
 
@@ -226,6 +229,12 @@ My development follows a consistent set of principles:
 > - ![project](https://img.shields.io/badge/project-Jarjarbin06-7c7c7c?style=flat-square)
 
 ## 🔹 [map_tool](https://github.com/Jarjarbin06/map_tool)
+> ### Info:
+> ![version](https://img.shields.io/badge/version-unknown-black?style=flat-square)  
+> ![status](https://img.shields.io/badge/status-unknown-black?style=flat-square)  
+> ### Description: none
+
+## 🔹 [portfolio](https://github.com/Jarjarbin06/portfolio)
 > ### Info:
 > ![version](https://img.shields.io/badge/version-unknown-black?style=flat-square)  
 > ![status](https://img.shields.io/badge/status-unknown-black?style=flat-square)  
