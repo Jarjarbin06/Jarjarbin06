@@ -107,7 +107,7 @@ My development follows a consistent set of principles:
 - [Epitech_Base](https://github.com/Jarjarbin06/Epitech_Base) (updated: 2026-06-12)
 - [Graph](https://github.com/Jarjarbin06/Graph) (updated: 2026-06-12)
 - [Jarbin-C-Coding-Style](https://github.com/Jarjarbin06/Jarbin-C-Coding-Style) (updated: 2026-06-25)
-- [jarjarbin-cloud-flare](https://github.com/Jarjarbin06/jarjarbin-cloud-flare) (updated: 2026-06-25)
+- [jarjarbin-cloud-flare](https://github.com/Jarjarbin06/jarjarbin-cloud-flare) (updated: 2026-06-26)
 - [Jarjarbin06](https://github.com/Jarjarbin06/Jarjarbin06) (updated: 2026-06-26)
 - [JarEngine](https://github.com/Jarjarbin-Studio/JarEngine) (updated: 2026-06-25)
 
@@ -127,8 +127,8 @@ My development follows a consistent set of principles:
 # 📡 Latest Activity
 
 ## 🔹 Recent Updates
+- jarjarbin-cloud-flare → 2026-06-26
 - Jarjarbin06 → 2026-06-26
-- jarjarbin-cloud-flare → 2026-06-25
 - Jarbin-C-Coding-Style → 2026-06-25
 - JarEngine → 2026-06-25
 - jarbin-toolkit → 2026-06-16
