@@ -109,7 +109,7 @@ My development follows a consistent set of principles:
 - [Jarbin-C-Coding-Style](https://github.com/Jarjarbin06/Jarbin-C-Coding-Style) (updated: 2026-06-25)
 - [jarjarbin-cloud-flare](https://github.com/Jarjarbin06/jarjarbin-cloud-flare) (updated: 2026-06-26)
 - [Jarjarbin06](https://github.com/Jarjarbin06/Jarjarbin06) (updated: 2026-07-01)
-- [JarEngine](https://github.com/Jarjarbin-Studio/JarEngine) (updated: 2026-07-01)
+- [JarEngine](https://github.com/Jarjarbin-Studio/JarEngine) (updated: 2026-07-02)
 
 ## 🔹 Tools
 - [epitech_console](https://github.com/Jarjarbin06/epitech_console) (updated: 2026-06-12)
@@ -127,8 +127,8 @@ My development follows a consistent set of principles:
 # 📡 Latest Activity
 
 ## 🔹 Recent Updates
+- JarEngine → 2026-07-02
 - Jarjarbin06 → 2026-07-01
-- JarEngine → 2026-07-01
 - jarjarbin-cloud-flare → 2026-06-26
 - Jarbin-C-Coding-Style → 2026-06-25
 - jarbin-toolkit → 2026-06-16
@@ -242,8 +242,8 @@ My development follows a consistent set of principles:
 
 ## 🔹 [JarEngine](https://github.com/Jarjarbin-Studio/JarEngine)
 > ### Info:
-> ![version](https://img.shields.io/badge/version-v1.0.0-7c7c7c?style=flat-square)  
-> ![status](https://img.shields.io/badge/status-WIP-orange?style=flat-square)  
+> ![version](https://img.shields.io/badge/version-v1.4.2-7c7c7c?style=flat-square)  
+> ![status](https://img.shields.io/badge/status-development-yellow?style=flat-square)  
 > 
 > ### Description:
 > - ![project](https://img.shields.io/badge/project-JarEngine-7c7c7c?style=flat-square)![python](https://img.shields.io/badge/language-python-3776AB?style=flat-square)![python-game](https://img.shields.io/badge/type-game%2Fengine-1ABC9C?style=flat-square)![engine](https://img.shields.io/badge/domain-engine-E67E22?style=flat-square)![wrapper](https://img.shields.io/badge/architecture-wrapper-9B59B6?style=flat-square)![secure](https://img.shields.io/badge/quality-secure-2ECC71?style=flat-square)
