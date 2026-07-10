@@ -9,7 +9,7 @@
 - [jarjarbin-cloud-flare](https://github.com/Jarjarbin06/jarjarbin-cloud-flare) (updated: 2026-06-26)
 - [Jarjarbin06](https://github.com/Jarjarbin06/Jarjarbin06) (updated: 2026-07-10)
 - [JarEngine](https://github.com/Jarjarbin-Studio/JarEngine) (updated: 2026-07-10)
-- [JarSnake](https://github.com/Jarjarbin-Studio/JarSnake) (updated: 2026-07-09)
+- [JarSnake](https://github.com/Jarjarbin-Studio/JarSnake) (updated: 2026-07-10)
 
 ## 🔹 Tools
 - [epitech_console](https://github.com/Jarjarbin06/epitech_console) (updated: 2026-06-12)
@@ -17,7 +17,6 @@
 - [map_tool](https://github.com/Jarjarbin06/map_tool) (updated: 2026-06-12)
 
 ## 🔹 Language Breakdown
-- Python: 9
+- Python: 10
 - C: 1
 - JavaScript: 1
-- Unknown: 1
