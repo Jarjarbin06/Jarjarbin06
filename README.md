@@ -140,8 +140,6 @@ My development follows a consistent set of principles:
 - Graph → 2026-02-18
 
 ## 🔹 Active Repositories (30 days)
-- BSCP
-- CLI-Game-Engine
 - Epitech_Base
 - Jarbin-C-Coding-Style
 - jarbin-toolkit
