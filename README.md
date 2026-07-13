@@ -109,8 +109,8 @@ My development follows a consistent set of principles:
 - [Jarbin-C-Coding-Style](https://github.com/Jarjarbin06/Jarbin-C-Coding-Style) (updated: 2026-06-25)
 - [jarjarbin-cloud-flare](https://github.com/Jarjarbin06/jarjarbin-cloud-flare) (updated: 2026-06-26)
 - [Jarjarbin06](https://github.com/Jarjarbin06/Jarjarbin06) (updated: 2026-07-12)
-- [JarEngine](https://github.com/Jarjarbin-Studio/JarEngine) (updated: 2026-07-10)
-- [JarSnake](https://github.com/Jarjarbin-Studio/JarSnake) (updated: 2026-07-10)
+- [JarEngine](https://github.com/Jarjarbin-Studio/JarEngine) (updated: 2026-07-13)
+- [JarSnake](https://github.com/Jarjarbin-Studio/JarSnake) (updated: 2026-07-13)
 
 ## 🔹 Tools
 - [epitech_console](https://github.com/Jarjarbin06/epitech_console) (updated: 2026-06-12)
@@ -128,9 +128,9 @@ My development follows a consistent set of principles:
 # 📡 Latest Activity
 
 ## 🔹 Recent Updates
+- JarEngine → 2026-07-13
+- JarSnake → 2026-07-13
 - Jarjarbin06 → 2026-07-12
-- JarEngine → 2026-07-10
-- JarSnake → 2026-07-10
 - jarbin-toolkit → 2026-07-07
 - jarjarbin-cloud-flare → 2026-06-26
 - Jarbin-C-Coding-Style → 2026-06-25
@@ -242,7 +242,7 @@ My development follows a consistent set of principles:
 
 ## 🔹 [JarEngine](https://github.com/Jarjarbin-Studio/JarEngine)
 > ### Info:
-> ![version](https://img.shields.io/badge/version-v1.6-7c7c7c?style=flat-square)  
+> ![version](https://img.shields.io/badge/version-v1.7.0-7c7c7c?style=flat-square)  
 > ![status](https://img.shields.io/badge/status-development-yellow?style=flat-square)  
 > 
 > ### Description:
