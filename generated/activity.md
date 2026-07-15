@@ -13,7 +13,6 @@
 - Graph → 2026-02-18
 
 ## 🔹 Active Repositories (30 days)
-- Epitech_Base
 - Jarbin-C-Coding-Style
 - jarbin-toolkit
 - jarjarbin-cloud-flare
