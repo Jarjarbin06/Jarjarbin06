@@ -7,9 +7,9 @@
 - [Graph](https://github.com/Jarjarbin06/Graph) (updated: 2026-06-12)
 - [Jarbin-C-Coding-Style](https://github.com/Jarjarbin06/Jarbin-C-Coding-Style) (updated: 2026-06-25)
 - [jarjarbin-cloud-flare](https://github.com/Jarjarbin06/jarjarbin-cloud-flare) (updated: 2026-06-26)
-- [Jarjarbin06](https://github.com/Jarjarbin06/Jarjarbin06) (updated: 2026-07-15)
+- [Jarjarbin06](https://github.com/Jarjarbin06/Jarjarbin06) (updated: 2026-07-16)
 - [JarEngine](https://github.com/Jarjarbin-Studio/JarEngine) (updated: 2026-07-16)
-- [JarSnake](https://github.com/Jarjarbin-Studio/JarSnake) (updated: 2026-07-13)
+- [JarSnake](https://github.com/Jarjarbin-Studio/JarSnake) (updated: 2026-07-16)
 
 ## 🔹 Tools
 - [epitech_console](https://github.com/Jarjarbin06/epitech_console) (updated: 2026-06-12)
