@@ -89,7 +89,7 @@
 
 ## 🔹 [JarEngine](https://github.com/Jarjarbin-Studio/JarEngine)
 > ### Info:
-> ![version](https://img.shields.io/badge/version-v1.7.5-7c7c7c?style=flat-square)  
+> ![version](https://img.shields.io/badge/version-v1.8.0-7c7c7c?style=flat-square)  
 > ![status](https://img.shields.io/badge/status-development-yellow?style=flat-square)  
 > 
 > ### Description:
