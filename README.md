@@ -109,7 +109,7 @@ My development follows a consistent set of principles:
 - [Jarbin-C-Coding-Style](https://github.com/Jarjarbin06/Jarbin-C-Coding-Style) (updated: 2026-06-25)
 - [jarjarbin-cloud-flare](https://github.com/Jarjarbin06/jarjarbin-cloud-flare) (updated: 2026-06-26)
 - [Jarjarbin06](https://github.com/Jarjarbin06/Jarjarbin06) (updated: 2026-07-18)
-- [JarEngine](https://github.com/Jarjarbin-Studio/JarEngine) (updated: 2026-07-17)
+- [JarEngine](https://github.com/Jarjarbin-Studio/JarEngine) (updated: 2026-07-18)
 - [JarSnake](https://github.com/Jarjarbin-Studio/JarSnake) (updated: 2026-07-16)
 
 ## 🔹 Tools
@@ -128,8 +128,8 @@ My development follows a consistent set of principles:
 # 📡 Latest Activity
 
 ## 🔹 Recent Updates
+- JarEngine → 2026-07-18
 - Jarjarbin06 → 2026-07-18
-- JarEngine → 2026-07-17
 - JarSnake → 2026-07-16
 - jarbin-toolkit → 2026-07-07
 - jarjarbin-cloud-flare → 2026-06-26
