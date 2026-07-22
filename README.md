@@ -128,9 +128,9 @@ My development follows a consistent set of principles:
 # 📡 Latest Activity
 
 ## 🔹 Recent Updates
+- JarEngine → 2026-07-22
 - Jarjarbin06 → 2026-07-22
 - jarbin-toolkit → 2026-07-22
-- JarEngine → 2026-07-22
 - JarSnake → 2026-07-16
 - jarjarbin-cloud-flare → 2026-06-26
 - Jarbin-C-Coding-Style → 2026-06-25
@@ -241,7 +241,7 @@ My development follows a consistent set of principles:
 
 ## 🔹 [JarEngine](https://github.com/Jarjarbin-Studio/JarEngine)
 > ### Info:
-> ![version](https://img.shields.io/badge/version-v1.8.0-7c7c7c?style=flat-square)  
+> ![version](https://img.shields.io/badge/version-v1.9.1-7c7c7c?style=flat-square)  
 > ![status](https://img.shields.io/badge/status-development-yellow?style=flat-square)  
 > 
 > ### Description:
