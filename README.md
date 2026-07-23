@@ -111,6 +111,7 @@ My development follows a consistent set of principles:
 - [Jarjarbin06](https://github.com/Jarjarbin06/Jarjarbin06) (updated: 2026-07-23)
 - [JarEngine](https://github.com/Jarjarbin-Studio/JarEngine) (updated: 2026-07-23)
 - [JarSnake](https://github.com/Jarjarbin-Studio/JarSnake) (updated: 2026-07-16)
+- [JarMineSwipe](https://github.com/Jarjarbin-Studio/JarMineSwipe) (updated: 2026-07-23)
 
 ## 🔹 Tools
 - [epitech_console](https://github.com/Jarjarbin06/epitech_console) (updated: 2026-06-12)
@@ -121,6 +122,7 @@ My development follows a consistent set of principles:
 - Python: 10
 - C: 1
 - JavaScript: 1
+- Unknown: 1
 
 
 ---
@@ -128,16 +130,16 @@ My development follows a consistent set of principles:
 # 📡 Latest Activity
 
 ## 🔹 Recent Updates
+- JarMineSwipe → 2026-07-23
+- Jarjarbin06 → 2026-07-23
 - jarbin-toolkit → 2026-07-23
 - JarEngine → 2026-07-23
-- Jarjarbin06 → 2026-07-23
 - JarSnake → 2026-07-16
 - jarjarbin-cloud-flare → 2026-06-26
 - Jarbin-C-Coding-Style → 2026-06-25
 - Epitech_Base → 2026-06-15
 - BSCP → 2026-06-12
 - CLI-Game-Engine → 2026-06-12
-- Graph → 2026-02-18
 
 ## 🔹 Active Repositories (30 days)
 - Jarbin-C-Coding-Style
@@ -146,6 +148,7 @@ My development follows a consistent set of principles:
 - Jarjarbin06
 - JarEngine
 - JarSnake
+- JarMineSwipe
 
 
 ---
@@ -248,6 +251,12 @@ My development follows a consistent set of principles:
 > - ![project](https://img.shields.io/badge/project-JarEngine-7c7c7c?style=flat-square)![python](https://img.shields.io/badge/language-python-3776AB?style=flat-square)![python-game](https://img.shields.io/badge/type-game%2Fengine-1ABC9C?style=flat-square)![engine](https://img.shields.io/badge/domain-engine-E67E22?style=flat-square)![wrapper](https://img.shields.io/badge/architecture-wrapper-9B59B6?style=flat-square)![secure](https://img.shields.io/badge/quality-secure-2ECC71?style=flat-square)
 
 ## 🔹 [JarSnake](https://github.com/Jarjarbin-Studio/JarSnake)
+> ### Info:
+> ![version](https://img.shields.io/badge/version-unknown-black?style=flat-square)  
+> ![status](https://img.shields.io/badge/status-unknown-black?style=flat-square)  
+> ### Description: none
+
+## 🔹 [JarMineSwipe]()
 > ### Info:
 > ![version](https://img.shields.io/badge/version-unknown-black?style=flat-square)  
 > ![status](https://img.shields.io/badge/status-unknown-black?style=flat-square)  

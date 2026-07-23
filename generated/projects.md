@@ -10,6 +10,7 @@
 - [Jarjarbin06](https://github.com/Jarjarbin06/Jarjarbin06) (updated: 2026-07-23)
 - [JarEngine](https://github.com/Jarjarbin-Studio/JarEngine) (updated: 2026-07-23)
 - [JarSnake](https://github.com/Jarjarbin-Studio/JarSnake) (updated: 2026-07-16)
+- [JarMineSwipe](https://github.com/Jarjarbin-Studio/JarMineSwipe) (updated: 2026-07-23)
 
 ## 🔹 Tools
 - [epitech_console](https://github.com/Jarjarbin06/epitech_console) (updated: 2026-06-12)
@@ -20,3 +21,4 @@
 - Python: 10
 - C: 1
 - JavaScript: 1
+- Unknown: 1

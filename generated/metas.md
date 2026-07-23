@@ -101,3 +101,9 @@
 > ![status](https://img.shields.io/badge/status-unknown-black?style=flat-square)  
 > ### Description: none
 
+## 🔹 [JarMineSwipe]()
+> ### Info:
+> ![version](https://img.shields.io/badge/version-unknown-black?style=flat-square)  
+> ![status](https://img.shields.io/badge/status-unknown-black?style=flat-square)  
+> ### Description: none
+
