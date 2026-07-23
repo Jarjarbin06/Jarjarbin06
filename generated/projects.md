@@ -13,7 +13,7 @@
 
 ## 🔹 Tools
 - [epitech_console](https://github.com/Jarjarbin06/epitech_console) (updated: 2026-06-12)
-- [jarbin-toolkit](https://github.com/Jarjarbin06/jarbin-toolkit) (updated: 2026-07-22)
+- [jarbin-toolkit](https://github.com/Jarjarbin06/jarbin-toolkit) (updated: 2026-07-23)
 - [map_tool](https://github.com/Jarjarbin06/map_tool) (updated: 2026-06-12)
 
 ## 🔹 Language Breakdown
