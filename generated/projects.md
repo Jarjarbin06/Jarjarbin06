@@ -18,7 +18,6 @@
 - [map_tool](https://github.com/Jarjarbin06/map_tool) (updated: 2026-06-12)
 
 ## 🔹 Language Breakdown
-- Python: 10
+- Python: 11
 - C: 1
 - JavaScript: 1
-- Unknown: 1

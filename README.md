@@ -119,10 +119,9 @@ My development follows a consistent set of principles:
 - [map_tool](https://github.com/Jarjarbin06/map_tool) (updated: 2026-06-12)
 
 ## 🔹 Language Breakdown
-- Python: 10
+- Python: 11
 - C: 1
 - JavaScript: 1
-- Unknown: 1
 
 
 ---
@@ -256,7 +255,7 @@ My development follows a consistent set of principles:
 > ![status](https://img.shields.io/badge/status-unknown-black?style=flat-square)  
 > ### Description: none
 
-## 🔹 [JarMineSwipe]()
+## 🔹 [JarMineSwipe](https://github.com/Jarjarbin-Studio/JarMineSwipe)
 > ### Info:
 > ![version](https://img.shields.io/badge/version-unknown-black?style=flat-square)  
 > ![status](https://img.shields.io/badge/status-unknown-black?style=flat-square)  
