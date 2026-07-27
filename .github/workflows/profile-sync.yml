@@ -9,7 +9,7 @@ on:
       - ".github/workflows/**"
       - "scripts/profile_generator.py"
   schedule:
-    - cron: "0 */4 * * *"
+    - cron: "0 */12 * * *"
   workflow_dispatch:
 
 jobs:
