@@ -229,7 +229,26 @@ It is intentionally separated from the main developer profile to keep technical 
 
 # 🏅 Badges
 
-[![My Trucky VTC Hub Profile](https://e.truckyapp.com/user/279327/badge)](https://hub.truckyapp.com/user/279327)
+### GitHub
+##### GitHub contribution stats
+[![Failed to load](https://streak-stats.demolab.com/?user=Jarjarbin06)](https://github.com/Jarjarbin06)
+
+### Development
+##### Wakapi Coding Activity
+![Failed to load](https://wakapi.dev/api/compat/shields/v1/Jarjarbin06/month)
+
+##### Wakapi Languages
+![Failed to load](https://wakapi.dev/api/compat/shields/v1/Jarjarbin06/all-time/languages)
+
+
+### Euro Truck Simulator
+##### Trucky VTC Hub Profile
+[![Failed to load](https://e.truckyapp.com/user/279327/badge)](https://hub.truckyapp.com/user/279327)
+
+### Services
+
+##### Portfolio Status
+![Failed to load](https://img.shields.io/website?url=https%3A%2F%2Fnathanamaraggi.pages.dev)
 
 ---
 
