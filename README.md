@@ -129,7 +129,6 @@ My development follows a consistent set of principles:
 - jarbin-toolkit
 - Jarjarbin06
 - JarEngine
-- JarSnake
 - JarMineSwipe
 
 

@@ -17,5 +17,4 @@
 - jarbin-toolkit
 - Jarjarbin06
 - JarEngine
-- JarSnake
 - JarMineSwipe
