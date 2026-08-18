@@ -92,7 +92,7 @@ My development follows a consistent set of principles:
 - [Graph](https://github.com/Jarjarbin06/Graph) (updated: 2026-06-12)
 - [Jarbin-C-Coding-Style](https://github.com/Jarjarbin06/Jarbin-C-Coding-Style) (updated: 2026-06-25)
 - [jarjarbin-cloud-flare](https://github.com/Jarjarbin06/jarjarbin-cloud-flare) (updated: 2026-06-26)
-- [Jarjarbin06](https://github.com/Jarjarbin06/Jarjarbin06) (updated: 2026-08-16)
+- [Jarjarbin06](https://github.com/Jarjarbin06/Jarjarbin06) (updated: 2026-08-17)
 - [JarEngine](https://github.com/Jarjarbin-Studio/JarEngine) (updated: 2026-07-24)
 - [JarSnake](https://github.com/Jarjarbin-Studio/JarSnake) (updated: 2026-07-16)
 - [JarMineSwipe](https://github.com/Jarjarbin-Studio/JarMineSwipe) (updated: 2026-07-26)
@@ -113,7 +113,7 @@ My development follows a consistent set of principles:
 # 📡 Latest Activity
 
 ## 🔹 Recent Updates
-- Jarjarbin06 → 2026-08-16
+- Jarjarbin06 → 2026-08-17
 - JarMineSwipe → 2026-07-26
 - JarEngine → 2026-07-24
 - Epitech_Base → 2026-07-24
@@ -136,11 +136,13 @@ My development follows a consistent set of principles:
 
 # 🧩 Metadata Tracking
 
-## 🔹 [BSCP]()
+## 🔹 [BSCP](https://github.com/Jarjarbin06/BSCP)
 > ### Info:
-> ![version](https://img.shields.io/badge/version-unknown-black?style=flat-square)  
-> ![status](https://img.shields.io/badge/status-unknown-black?style=flat-square)  
-> ### Description: none
+> ![version](https://img.shields.io/badge/version-v1.0.0-7c7c7c?style=flat-square)  
+> ![status](https://img.shields.io/badge/status-WIP-orange?style=flat-square)  
+> 
+> ### Description:
+> - ![project](https://img.shields.io/badge/project-BSCP-7c7c7c?style=flat-square)![python](https://img.shields.io/badge/language-python-3776AB?style=flat-square)![game](https://img.shields.io/badge/domain-game-F1C40F?style=flat-square)
 
 ## 🔹 [CLI-Game-Engine](https://github.com/Jarjarbin06/CLI-Game-Engine)
 > ### Info:
