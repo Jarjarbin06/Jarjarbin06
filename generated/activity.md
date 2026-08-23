@@ -1,7 +1,7 @@
 # 📡 Latest Activity
 
 ## 🔹 Recent Updates
-- Jarjarbin06 → 2026-08-18
+- Jarjarbin06 → 2026-08-23
 - JarMineSwipe → 2026-07-26
 - JarEngine → 2026-07-24
 - Epitech_Base → 2026-07-24
@@ -13,7 +13,6 @@
 - CLI-Game-Engine → 2026-06-12
 
 ## 🔹 Active Repositories (30 days)
-- Epitech_Base
 - Jarjarbin06
 - JarEngine
 - JarMineSwipe
