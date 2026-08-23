@@ -14,7 +14,6 @@
 
 ## 🔹 Active Repositories (30 days)
 - Epitech_Base
-- jarbin-toolkit
 - Jarjarbin06
 - JarEngine
 - JarMineSwipe
