@@ -126,7 +126,6 @@ My development follows a consistent set of principles:
 
 ## 🔹 Active Repositories (30 days)
 - Jarjarbin06
-- JarMineSwipe
 
 
 ---

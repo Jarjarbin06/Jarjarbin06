@@ -14,4 +14,3 @@
 
 ## 🔹 Active Repositories (30 days)
 - Jarjarbin06
-- JarMineSwipe
