@@ -92,14 +92,14 @@ My development follows a consistent set of principles:
 - [Graph](https://github.com/Jarjarbin06/Graph) (updated: 2026-06-12)
 - [Jarbin-C-Coding-Style](https://github.com/Jarjarbin06/Jarbin-C-Coding-Style) (updated: 2026-06-25)
 - [jarjarbin-cloud-flare](https://github.com/Jarjarbin06/jarjarbin-cloud-flare) (updated: 2026-06-26)
-- [Jarjarbin06](https://github.com/Jarjarbin06/Jarjarbin06) (updated: 2026-09-03)
+- [Jarjarbin06](https://github.com/Jarjarbin06/Jarjarbin06) (updated: 2026-09-04)
 - [JarEngine](https://github.com/Jarjarbin-Studio/JarEngine) (updated: 2026-07-24)
 - [JarSnake](https://github.com/Jarjarbin-Studio/JarSnake) (updated: 2026-07-16)
 - [JarMineSwipe](https://github.com/Jarjarbin-Studio/JarMineSwipe) (updated: 2026-07-26)
 
 ## 🔹 Tools
 - [epitech_console](https://github.com/Jarjarbin06/epitech_console) (updated: 2026-06-12)
-- [jarbin-toolkit](https://github.com/Jarjarbin06/jarbin-toolkit) (updated: 2026-09-03)
+- [jarbin-toolkit](https://github.com/Jarjarbin06/jarbin-toolkit) (updated: 2026-09-04)
 - [map_tool](https://github.com/Jarjarbin06/map_tool) (updated: 2026-06-12)
 
 ## 🔹 Language Breakdown
@@ -113,8 +113,8 @@ My development follows a consistent set of principles:
 # 📡 Latest Activity
 
 ## 🔹 Recent Updates
-- Jarjarbin06 → 2026-09-03
-- jarbin-toolkit → 2026-09-03
+- jarbin-toolkit → 2026-09-04
+- Jarjarbin06 → 2026-09-04
 - JarMineSwipe → 2026-07-26
 - JarEngine → 2026-07-24
 - Epitech_Base → 2026-07-24
