@@ -54,7 +54,7 @@
 
 ## 🔹 [jarbin-toolkit](https://github.com/Jarjarbin06/jarbin-toolkit)
 > ### Info:
-> ![version](https://img.shields.io/badge/version-v1.2.0-7c7c7c?style=flat-square)  
+> ![version](https://img.shields.io/badge/version-v1.8-7c7c7c?style=flat-square)  
 > ![status](https://img.shields.io/badge/status-development-yellow?style=flat-square)  
 > 
 > ### Description:
