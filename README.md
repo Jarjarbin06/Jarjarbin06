@@ -91,8 +91,9 @@ My development follows a consistent set of principles:
 - [Epitech_Base](https://github.com/Jarjarbin06/Epitech_Base) (updated: 2026-06-12)
 - [Graph](https://github.com/Jarjarbin06/Graph) (updated: 2026-06-12)
 - [Jarbin-C-Coding-Style](https://github.com/Jarjarbin06/Jarbin-C-Coding-Style) (updated: 2026-06-25)
+- [JarbinLocalAPI](https://github.com/Jarjarbin06/JarbinLocalAPI) (updated: 2026-09-11)
 - [jarjarbin-cloud-flare](https://github.com/Jarjarbin06/jarjarbin-cloud-flare) (updated: 2026-06-26)
-- [Jarjarbin06](https://github.com/Jarjarbin06/Jarjarbin06) (updated: 2026-09-10)
+- [Jarjarbin06](https://github.com/Jarjarbin06/Jarjarbin06) (updated: 2026-09-11)
 - [JarEngine](https://github.com/Jarjarbin-Studio/JarEngine) (updated: 2026-07-24)
 - [JarSnake](https://github.com/Jarjarbin-Studio/JarSnake) (updated: 2026-07-16)
 - [JarMineSwipe](https://github.com/Jarjarbin-Studio/JarMineSwipe) (updated: 2026-07-26)
@@ -103,7 +104,7 @@ My development follows a consistent set of principles:
 - [map_tool](https://github.com/Jarjarbin06/map_tool) (updated: 2026-06-12)
 
 ## 🔹 Language Breakdown
-- Python: 11
+- Python: 12
 - C: 1
 - JavaScript: 1
 
@@ -113,7 +114,8 @@ My development follows a consistent set of principles:
 # 📡 Latest Activity
 
 ## 🔹 Recent Updates
-- Jarjarbin06 → 2026-09-10
+- JarbinLocalAPI → 2026-09-11
+- Jarjarbin06 → 2026-09-11
 - jarbin-toolkit → 2026-09-10
 - JarMineSwipe → 2026-07-26
 - JarEngine → 2026-07-24
@@ -122,10 +124,10 @@ My development follows a consistent set of principles:
 - jarjarbin-cloud-flare → 2026-06-26
 - Jarbin-C-Coding-Style → 2026-06-25
 - BSCP → 2026-06-12
-- CLI-Game-Engine → 2026-06-12
 
 ## 🔹 Active Repositories (30 days)
 - jarbin-toolkit
+- JarbinLocalAPI
 - Jarjarbin06
 
 
@@ -199,6 +201,14 @@ My development follows a consistent set of principles:
 > - ![project](https://img.shields.io/badge/project-Jarbin--ToolKit:JarTest-7c7c7c?style=flat-square)![python](https://img.shields.io/badge/language-python-3776AB?style=flat-square)![python-tool](https://img.shields.io/badge/type-python%20tool-27AE60?style=flat-square)
 > - ![project](https://img.shields.io/badge/project-Jarbin--ToolKit:Log-7c7c7c?style=flat-square)![python](https://img.shields.io/badge/language-python-3776AB?style=flat-square)![python-tool](https://img.shields.io/badge/type-python%20tool-27AE60?style=flat-square)
 > - ![project](https://img.shields.io/badge/project-Jarbin--ToolKit:Time-7c7c7c?style=flat-square)![python](https://img.shields.io/badge/language-python-3776AB?style=flat-square)![python-tool](https://img.shields.io/badge/type-python%20tool-27AE60?style=flat-square)
+
+## 🔹 [JarbinLocalAPI](https://github.com/Jarjarbin06/JarbinLocalAPI)
+> ### Info:
+> ![version](https://img.shields.io/badge/version-v0.2.0-7c7c7c?style=flat-square)  
+> ![status](https://img.shields.io/badge/status-experimental-purple?style=flat-square)  
+> 
+> ### Description:
+> - ![project](https://img.shields.io/badge/project-JarbinLocalAPI-7c7c7c?style=flat-square)![python](https://img.shields.io/badge/language-python-3776AB?style=flat-square)![python-tool](https://img.shields.io/badge/type-python%20tool-27AE60?style=flat-square)![tool](https://img.shields.io/badge/domain-tool-F39C12?style=flat-square)![core](https://img.shields.io/badge/architecture-core-8E44AD?style=flat-square)
 
 ## 🔹 [jarjarbin-cloud-flare](https://github.com/Jarjarbin06/jarjarbin-cloud-flare)
 > ### Info:
