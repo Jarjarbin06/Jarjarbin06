@@ -93,14 +93,14 @@ My development follows a consistent set of principles:
 - [Jarbin-C-Coding-Style](https://github.com/Jarjarbin06/Jarbin-C-Coding-Style) (updated: 2026-06-25)
 - [JarbinLocalAPI](https://github.com/Jarjarbin06/JarbinLocalAPI) (updated: 2026-09-14)
 - [jarjarbin-cloud-flare](https://github.com/Jarjarbin06/jarjarbin-cloud-flare) (updated: 2026-06-26)
-- [Jarjarbin06](https://github.com/Jarjarbin06/Jarjarbin06) (updated: 2026-09-22)
+- [Jarjarbin06](https://github.com/Jarjarbin06/Jarjarbin06) (updated: 2026-09-23)
 - [JarEngine](https://github.com/Jarjarbin-Studio/JarEngine) (updated: 2026-07-24)
 - [JarSnake](https://github.com/Jarjarbin-Studio/JarSnake) (updated: 2026-07-16)
 - [JarMineSwipe](https://github.com/Jarjarbin-Studio/JarMineSwipe) (updated: 2026-07-26)
 
 ## 🔹 Tools
 - [epitech_console](https://github.com/Jarjarbin06/epitech_console) (updated: 2026-06-12)
-- [jarbin-toolkit](https://github.com/Jarjarbin06/jarbin-toolkit) (updated: 2026-09-15)
+- [jarbin-toolkit](https://github.com/Jarjarbin06/jarbin-toolkit) (updated: 2026-09-23)
 - [map_tool](https://github.com/Jarjarbin06/map_tool) (updated: 2026-06-12)
 
 ## 🔹 Language Breakdown
@@ -114,8 +114,8 @@ My development follows a consistent set of principles:
 # 📡 Latest Activity
 
 ## 🔹 Recent Updates
-- Jarjarbin06 → 2026-09-22
-- jarbin-toolkit → 2026-09-22
+- jarbin-toolkit → 2026-09-23
+- Jarjarbin06 → 2026-09-23
 - JarbinLocalAPI → 2026-09-14
 - JarMineSwipe → 2026-07-26
 - JarEngine → 2026-07-24
@@ -189,7 +189,7 @@ My development follows a consistent set of principles:
 
 ## 🔹 [jarbin-toolkit](https://github.com/Jarjarbin06/jarbin-toolkit)
 > ### Info:
-> ![version](https://img.shields.io/badge/version-v1.8-7c7c7c?style=flat-square)  
+> ![version](https://img.shields.io/badge/version-v2.0-7c7c7c?style=flat-square)  
 > ![status](https://img.shields.io/badge/status-development-yellow?style=flat-square)  
 > 
 > ### Description:
