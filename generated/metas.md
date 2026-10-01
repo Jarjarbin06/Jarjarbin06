@@ -52,6 +52,12 @@
 > ### Description:
 > - ![project](https://img.shields.io/badge/project-JCCS-7c7c7c?style=flat-square)![python](https://img.shields.io/badge/language-python-3776AB?style=flat-square)![python-tool](https://img.shields.io/badge/type-python%20tool-27AE60?style=flat-square)![tool](https://img.shields.io/badge/domain-tool-F39C12?style=flat-square)![secure](https://img.shields.io/badge/quality-secure-2ECC71?style=flat-square)
 
+## 🔹 [Jarbin-GitHub-Template](https://github.com/Jarjarbin06/Jarbin-GitHub-Template)
+> ### Info:
+> ![version](https://img.shields.io/badge/version-unknown-black?style=flat-square)  
+> ![status](https://img.shields.io/badge/status-unknown-black?style=flat-square)  
+> ### Description: none
+
 ## 🔹 [jarbin-toolkit](https://github.com/Jarjarbin06/jarbin-toolkit)
 > ### Info:
 > ![version](https://img.shields.io/badge/version-v2.0-7c7c7c?style=flat-square)  
