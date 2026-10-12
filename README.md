@@ -98,6 +98,7 @@ My development follows a consistent set of principles:
 - [JarEngine](https://github.com/Jarjarbin-Studio/JarEngine) (updated: 2026-07-24)
 - [JarSnake](https://github.com/Jarjarbin-Studio/JarSnake) (updated: 2026-07-16)
 - [JarMineSwipe](https://github.com/Jarjarbin-Studio/JarMineSwipe) (updated: 2026-07-26)
+- [OTCBot](https://github.com/OnlineTrafficControl/OTCBot) (updated: 2026-10-12)
 
 ## 🔹 Tools
 - [epitech_console](https://github.com/Jarjarbin06/epitech_console) (updated: 2026-06-12)
@@ -105,7 +106,7 @@ My development follows a consistent set of principles:
 - [map_tool](https://github.com/Jarjarbin06/map_tool) (updated: 2026-06-12)
 
 ## 🔹 Language Breakdown
-- Python: 13
+- Python: 14
 - C: 1
 - JavaScript: 1
 
@@ -115,6 +116,7 @@ My development follows a consistent set of principles:
 # 📡 Latest Activity
 
 ## 🔹 Recent Updates
+- OTCBot → 2026-10-12
 - Jarjarbin06 → 2026-10-10
 - jarbin-toolkit → 2026-10-09
 - Jarbin-GitHub-Template → 2026-10-01
@@ -124,13 +126,13 @@ My development follows a consistent set of principles:
 - Epitech_Base → 2026-07-24
 - JarSnake → 2026-07-16
 - jarjarbin-cloud-flare → 2026-06-26
-- Jarbin-C-Coding-Style → 2026-06-25
 
 ## 🔹 Active Repositories (30 days)
 - Jarbin-GitHub-Template
 - jarbin-toolkit
 - JarbinLocalAPI
 - Jarjarbin06
+- OTCBot
 
 
 ---
@@ -253,6 +255,12 @@ My development follows a consistent set of principles:
 > ### Description: none
 
 ## 🔹 [JarMineSwipe](https://github.com/Jarjarbin-Studio/JarMineSwipe)
+> ### Info:
+> ![version](https://img.shields.io/badge/version-unknown-black?style=flat-square)  
+> ![status](https://img.shields.io/badge/status-unknown-black?style=flat-square)  
+> ### Description: none
+
+## 🔹 [OTCBot](https://github.com/OnlineTrafficControl/OTCBot)
 > ### Info:
 > ![version](https://img.shields.io/badge/version-unknown-black?style=flat-square)  
 > ![status](https://img.shields.io/badge/status-unknown-black?style=flat-square)  
