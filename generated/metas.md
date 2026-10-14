@@ -103,7 +103,7 @@
 
 ## 🔹 [JarEngine](https://github.com/Jarjarbin-Studio/JarEngine)
 > ### Info:
-> ![version](https://img.shields.io/badge/version-v1.10.3-7c7c7c?style=flat-square)  
+> ![version](https://img.shields.io/badge/version-v2.0.0-7c7c7c?style=flat-square)  
 > ![status](https://img.shields.io/badge/status-development-yellow?style=flat-square)  
 > 
 > ### Description:
