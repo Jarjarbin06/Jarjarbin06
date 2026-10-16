@@ -81,6 +81,14 @@
 > ### Description:
 > - ![project](https://img.shields.io/badge/project-JarbinLocalAPI-7c7c7c?style=flat-square)![python](https://img.shields.io/badge/language-python-3776AB?style=flat-square)![python-tool](https://img.shields.io/badge/type-python%20tool-27AE60?style=flat-square)![tool](https://img.shields.io/badge/domain-tool-F39C12?style=flat-square)![core](https://img.shields.io/badge/architecture-core-8E44AD?style=flat-square)
 
+## 🔹 [JarDiscordEngine](https://github.com/Jarjarbin06/JarDiscordEngine)
+> ### Info:
+> ![version](https://img.shields.io/badge/version-v0.1.0-7c7c7c?style=flat-square)  
+> ![status](https://img.shields.io/badge/status-development-yellow?style=flat-square)  
+> 
+> ### Description:
+> - ![project](https://img.shields.io/badge/project-JarDiscordEngine-7c7c7c?style=flat-square)![python](https://img.shields.io/badge/language-python-3776AB?style=flat-square)![engine](https://img.shields.io/badge/domain-engine-E67E22?style=flat-square)![wrapper](https://img.shields.io/badge/architecture-wrapper-9B59B6?style=flat-square)![secure](https://img.shields.io/badge/quality-secure-2ECC71?style=flat-square)
+
 ## 🔹 [jarjarbin-cloud-flare](https://github.com/Jarjarbin06/jarjarbin-cloud-flare)
 > ### Info:
 > ![version](https://img.shields.io/badge/version-unknown-black?style=flat-square)  
