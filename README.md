@@ -93,7 +93,7 @@ My development follows a consistent set of principles:
 - [Jarbin-C-Coding-Style](https://github.com/Jarjarbin06/Jarbin-C-Coding-Style) (updated: 2026-06-25)
 - [Jarbin-GitHub-Template](https://github.com/Jarjarbin06/Jarbin-GitHub-Template) (updated: 2026-10-01)
 - [JarbinLocalAPI](https://github.com/Jarjarbin06/JarbinLocalAPI) (updated: 2026-09-14)
-- [JarDiscordEngine](https://github.com/Jarjarbin06/JarDiscordEngine) (updated: 2026-10-16)
+- [JarDiscordEngine](https://github.com/Jarjarbin06/JarDiscordEngine) (updated: 2026-10-19)
 - [jarjarbin-cloud-flare](https://github.com/Jarjarbin06/jarjarbin-cloud-flare) (updated: 2026-06-26)
 - [Jarjarbin06](https://github.com/Jarjarbin06/Jarjarbin06) (updated: 2026-10-17)
 - [JarEngine](https://github.com/Jarjarbin-Studio/JarEngine) (updated: 2026-10-16)
@@ -117,8 +117,8 @@ My development follows a consistent set of principles:
 # 📡 Latest Activity
 
 ## 🔹 Recent Updates
+- JarDiscordEngine → 2026-10-19
 - Jarjarbin06 → 2026-10-17
-- JarDiscordEngine → 2026-10-16
 - JarEngine → 2026-10-16
 - OTCBot → 2026-10-16
 - jarbin-toolkit → 2026-10-14
