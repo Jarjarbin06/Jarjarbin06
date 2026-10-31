@@ -95,7 +95,7 @@ My development follows a consistent set of principles:
 - [JarbinLocalAPI](https://github.com/Jarjarbin06/JarbinLocalAPI) (updated: 2026-09-14)
 - [JarDiscordEngine](https://github.com/Jarjarbin06/JarDiscordEngine) (updated: 2026-10-30)
 - [jarjarbin-cloud-flare](https://github.com/Jarjarbin06/jarjarbin-cloud-flare) (updated: 2026-06-26)
-- [Jarjarbin06](https://github.com/Jarjarbin06/Jarjarbin06) (updated: 2026-10-30)
+- [Jarjarbin06](https://github.com/Jarjarbin06/Jarjarbin06) (updated: 2026-10-31)
 - [JarEngine](https://github.com/Jarjarbin-Studio/JarEngine) (updated: 2026-10-16)
 - [JarSnake](https://github.com/Jarjarbin-Studio/JarSnake) (updated: 2026-07-16)
 - [JarMineSwipe](https://github.com/Jarjarbin-Studio/JarMineSwipe) (updated: 2026-10-14)
@@ -117,7 +117,7 @@ My development follows a consistent set of principles:
 # 📡 Latest Activity
 
 ## 🔹 Recent Updates
-- Jarjarbin06 → 2026-10-30
+- Jarjarbin06 → 2026-10-31
 - JarDiscordEngine → 2026-10-30
 - OTCBot → 2026-10-21
 - jarbin-toolkit → 2026-10-20
@@ -129,7 +129,6 @@ My development follows a consistent set of principles:
 - JarSnake → 2026-07-16
 
 ## 🔹 Active Repositories (30 days)
-- Jarbin-GitHub-Template
 - jarbin-toolkit
 - JarDiscordEngine
 - Jarjarbin06
