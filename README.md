@@ -95,11 +95,11 @@ My development follows a consistent set of principles:
 - [JarbinLocalAPI](https://github.com/Jarjarbin06/JarbinLocalAPI) (updated: 2026-09-14)
 - [JarDiscordEngine](https://github.com/Jarjarbin06/JarDiscordEngine) (updated: 2026-11-03)
 - [jarjarbin-cloud-flare](https://github.com/Jarjarbin06/jarjarbin-cloud-flare) (updated: 2026-06-26)
-- [Jarjarbin06](https://github.com/Jarjarbin06/Jarjarbin06) (updated: 2026-10-31)
+- [Jarjarbin06](https://github.com/Jarjarbin06/Jarjarbin06) (updated: 2026-11-03)
 - [JarEngine](https://github.com/Jarjarbin-Studio/JarEngine) (updated: 2026-10-16)
 - [JarSnake](https://github.com/Jarjarbin-Studio/JarSnake) (updated: 2026-07-16)
 - [JarMineSwipe](https://github.com/Jarjarbin-Studio/JarMineSwipe) (updated: 2026-10-14)
-- [OTCBot](https://github.com/OnlineTrafficControl/OTCBot) (updated: 2026-10-16)
+- [OTCBot](https://github.com/OnlineTrafficControl/OTCBot) (updated: 2026-11-03)
 
 ## 🔹 Tools
 - [epitech_console](https://github.com/Jarjarbin06/epitech_console) (updated: 2026-06-12)
@@ -119,7 +119,7 @@ My development follows a consistent set of principles:
 ## 🔹 Recent Updates
 - OTCBot → 2026-11-03
 - JarDiscordEngine → 2026-11-03
-- Jarjarbin06 → 2026-10-31
+- Jarjarbin06 → 2026-11-03
 - jarbin-toolkit → 2026-10-20
 - JarEngine → 2026-10-16
 - JarMineSwipe → 2026-10-14
@@ -224,7 +224,7 @@ My development follows a consistent set of principles:
 
 ## 🔹 [JarDiscordEngine](https://github.com/Jarjarbin06/JarDiscordEngine)
 > ### Info:
-> ![version](https://img.shields.io/badge/version-v0.2.0-7c7c7c?style=flat-square)  
+> ![version](https://img.shields.io/badge/version-v0.3.1-7c7c7c?style=flat-square)  
 > ![status](https://img.shields.io/badge/status-development-yellow?style=flat-square)  
 > 
 > ### Description:
