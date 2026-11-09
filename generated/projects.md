@@ -8,13 +8,13 @@
 - [Jarbin-C-Coding-Style](https://github.com/Jarjarbin06/Jarbin-C-Coding-Style) (updated: 2026-06-25)
 - [Jarbin-GitHub-Template](https://github.com/Jarjarbin06/Jarbin-GitHub-Template) (updated: 2026-10-01)
 - [JarbinLocalAPI](https://github.com/Jarjarbin06/JarbinLocalAPI) (updated: 2026-09-14)
-- [JarDiscordEngine](https://github.com/Jarjarbin06/JarDiscordEngine) (updated: 2026-11-03)
+- [JarDiscordEngine](https://github.com/Jarjarbin06/JarDiscordEngine) (updated: 2026-11-09)
 - [jarjarbin-cloud-flare](https://github.com/Jarjarbin06/jarjarbin-cloud-flare) (updated: 2026-06-26)
 - [Jarjarbin06](https://github.com/Jarjarbin06/Jarjarbin06) (updated: 2026-11-05)
 - [JarEngine](https://github.com/Jarjarbin-Studio/JarEngine) (updated: 2026-10-16)
 - [JarSnake](https://github.com/Jarjarbin-Studio/JarSnake) (updated: 2026-07-16)
 - [JarMineSwipe](https://github.com/Jarjarbin-Studio/JarMineSwipe) (updated: 2026-10-14)
-- [OTCBot](https://github.com/OnlineTrafficControl/OTCBot) (updated: 2026-11-03)
+- [OTCBot](https://github.com/OnlineTrafficControl/OTCBot) (updated: 2026-11-09)
 
 ## 🔹 Tools
 - [epitech_console](https://github.com/Jarjarbin06/epitech_console) (updated: 2026-06-12)
