@@ -8,6 +8,7 @@
 - [Jarbin-C-Coding-Style](https://github.com/Jarjarbin06/Jarbin-C-Coding-Style) (updated: 2026-06-25)
 - [Jarbin-GitHub-Template](https://github.com/Jarjarbin06/Jarbin-GitHub-Template) (updated: 2026-10-01)
 - [JarbinLocalAPI](https://github.com/Jarjarbin06/JarbinLocalAPI) (updated: 2026-09-14)
+- [JarBot](https://github.com/Jarjarbin06/JarBot) (updated: 2026-11-12)
 - [JarDiscordEngine](https://github.com/Jarjarbin06/JarDiscordEngine) (updated: 2026-11-10)
 - [jarjarbin-cloud-flare](https://github.com/Jarjarbin06/jarjarbin-cloud-flare) (updated: 2026-06-26)
 - [Jarjarbin06](https://github.com/Jarjarbin06/Jarjarbin06) (updated: 2026-11-11)
@@ -22,6 +23,6 @@
 - [map_tool](https://github.com/Jarjarbin06/map_tool) (updated: 2026-06-12)
 
 ## 🔹 Language Breakdown
-- Python: 15
+- Python: 16
 - C: 1
 - JavaScript: 1
