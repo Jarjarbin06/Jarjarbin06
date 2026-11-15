@@ -134,7 +134,6 @@ My development follows a consistent set of principles:
 - JarBot
 - JarDiscordEngine
 - Jarjarbin06
-- JarEngine
 - OTCBot
 
 

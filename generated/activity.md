@@ -17,5 +17,4 @@
 - JarBot
 - JarDiscordEngine
 - Jarjarbin06
-- JarEngine
 - OTCBot
