@@ -1,8 +1,8 @@
 # 📡 Latest Activity
 
 ## 🔹 Recent Updates
+- JarBot → 2026-11-17
 - Jarjarbin06 → 2026-11-16
-- JarBot → 2026-11-12
 - OTCBot → 2026-11-12
 - JarDiscordEngine → 2026-11-10
 - jarbin-toolkit → 2026-10-20
@@ -14,7 +14,7 @@
 
 ## 🔹 Active Repositories (30 days)
 - jarbin-toolkit
-- JarBot
-- JarDiscordEngine
 - Jarjarbin06
+- JarDiscordEngine
+- JarBot
 - OTCBot
