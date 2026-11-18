@@ -118,10 +118,10 @@ My development follows a consistent set of principles:
 # 📡 Latest Activity
 
 ## 🔹 Recent Updates
-- Jarjarbin06 → 2026-11-17
-- JarBot → 2026-11-17
+- JarBot → 2026-11-18
+- JarDiscordEngine → 2026-11-18
+- Jarjarbin06 → 2026-11-18
 - OTCBot → 2026-11-12
-- JarDiscordEngine → 2026-11-10
 - jarbin-toolkit → 2026-10-20
 - JarEngine → 2026-10-16
 - JarMineSwipe → 2026-10-14
@@ -264,7 +264,7 @@ My development follows a consistent set of principles:
 
 ## 🔹 [JarDiscordEngine](https://github.com/Jarjarbin-Studio/JarDiscordEngine)
 > ### Info:
-> ![version](https://img.shields.io/badge/version-v0.3.5-7c7c7c?style=flat-square)  
+> ![version](https://img.shields.io/badge/version-v0.4.0-7c7c7c?style=flat-square)  
 > ![status](https://img.shields.io/badge/status-development-yellow?style=flat-square)  
 > 
 > ### Description:
