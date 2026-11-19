@@ -118,7 +118,7 @@ My development follows a consistent set of principles:
 # 📡 Latest Activity
 
 ## 🔹 Recent Updates
-- Jarjarbin06 → 2026-11-18
+- Jarjarbin06 → 2026-11-19
 - JarBot → 2026-11-18
 - JarDiscordEngine → 2026-11-18
 - OTCBot → 2026-11-12
@@ -130,7 +130,6 @@ My development follows a consistent set of principles:
 - Epitech_Base → 2026-07-24
 
 ## 🔹 Active Repositories (30 days)
-- jarbin-toolkit
 - Jarjarbin06
 - JarDiscordEngine
 - JarBot
