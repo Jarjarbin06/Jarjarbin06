@@ -118,8 +118,8 @@ My development follows a consistent set of principles:
 # 📡 Latest Activity
 
 ## 🔹 Recent Updates
-- JarDiscordEngine → 2026-11-21
 - Jarjarbin06 → 2026-11-21
+- JarDiscordEngine → 2026-11-21
 - JarBot → 2026-11-18
 - OTCBot → 2026-11-12
 - jarbin-toolkit → 2026-10-20
