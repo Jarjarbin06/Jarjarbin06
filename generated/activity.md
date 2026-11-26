@@ -1,8 +1,8 @@
 # 📡 Latest Activity
 
 ## 🔹 Recent Updates
-- JarBot → 2026-11-25
 - Jarjarbin06 → 2026-11-25
+- JarBot → 2026-11-25
 - JarDiscordEngine → 2026-11-21
 - OTCBot → 2026-11-12
 - jarbin-toolkit → 2026-10-20
