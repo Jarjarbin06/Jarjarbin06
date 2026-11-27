@@ -46,7 +46,7 @@
 
 ## 🔹 [Jarbin-C-Coding-Style](https://github.com/Jarjarbin06/Jarbin-C-Coding-Style)
 > ### Info:
-> ![version](https://img.shields.io/badge/version-v1.1.0-7c7c7c?style=flat-square)  
+> ![version](https://img.shields.io/badge/version-v2.0.0-7c7c7c?style=flat-square)  
 > ![status](https://img.shields.io/badge/status-stable-brightgreen?style=flat-square)  
 > 
 > ### Description:

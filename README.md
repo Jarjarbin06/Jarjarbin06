@@ -90,7 +90,7 @@ My development follows a consistent set of principles:
 - [CLI-Game-Engine](https://github.com/Jarjarbin06/CLI-Game-Engine) (updated: 2026-06-12)
 - [Epitech_Base](https://github.com/Jarjarbin06/Epitech_Base) (updated: 2026-06-12)
 - [Graph](https://github.com/Jarjarbin06/Graph) (updated: 2026-06-12)
-- [Jarbin-C-Coding-Style](https://github.com/Jarjarbin06/Jarbin-C-Coding-Style) (updated: 2026-06-25)
+- [Jarbin-C-Coding-Style](https://github.com/Jarjarbin06/Jarbin-C-Coding-Style) (updated: 2026-11-27)
 - [Jarbin-GitHub-Template](https://github.com/Jarjarbin06/Jarbin-GitHub-Template) (updated: 2026-10-01)
 - [JarbinLocalAPI](https://github.com/Jarjarbin06/JarbinLocalAPI) (updated: 2026-09-14)
 - [jarjarbin-cloud-flare](https://github.com/Jarjarbin06/jarjarbin-cloud-flare) (updated: 2026-06-26)
@@ -108,8 +108,9 @@ My development follows a consistent set of principles:
 - [map_tool](https://github.com/Jarjarbin06/map_tool) (updated: 2026-06-12)
 
 ## 🔹 Language Breakdown
-- Python: 16
+- Python: 15
 - C: 1
+- Makefile: 1
 - JavaScript: 1
 
 
@@ -118,6 +119,7 @@ My development follows a consistent set of principles:
 # 📡 Latest Activity
 
 ## 🔹 Recent Updates
+- Jarbin-C-Coding-Style → 2026-11-27
 - Jarjarbin06 → 2026-11-26
 - JarBot → 2026-11-25
 - JarDiscordEngine → 2026-11-21
@@ -127,9 +129,9 @@ My development follows a consistent set of principles:
 - JarMineSwipe → 2026-10-14
 - Jarbin-GitHub-Template → 2026-10-01
 - JarbinLocalAPI → 2026-09-14
-- Epitech_Base → 2026-07-24
 
 ## 🔹 Active Repositories (30 days)
+- Jarbin-C-Coding-Style
 - Jarjarbin06
 - JarDiscordEngine
 - JarBot
@@ -186,7 +188,7 @@ My development follows a consistent set of principles:
 
 ## 🔹 [Jarbin-C-Coding-Style](https://github.com/Jarjarbin06/Jarbin-C-Coding-Style)
 > ### Info:
-> ![version](https://img.shields.io/badge/version-v1.1.0-7c7c7c?style=flat-square)  
+> ![version](https://img.shields.io/badge/version-v2.0.0-7c7c7c?style=flat-square)  
 > ![status](https://img.shields.io/badge/status-stable-brightgreen?style=flat-square)  
 > 
 > ### Description:
